@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap");
+@font-face {
+  font-family: "Loos Wide";
+  src: url("/public/Loos-WideMedium.otf");
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Loos Wide";
+  src: url("/public/Loos-WideBold.otf");
+  font-weight: 700;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  @apply leading-[normal] m-0;
+}
+*,
+::before,
+::after {
+  border-width: 0;
+}
