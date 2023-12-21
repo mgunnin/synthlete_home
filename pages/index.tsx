@@ -11,13 +11,42 @@ const HomepageDesktopLarge: NextPage = () => {
   }, []);
 
   return (
+<<<<<<< HEAD
     <div className="relative bg-surface-surface-background w-layout-width flex flex-col items-center justify-start text-left text-29xl text-content-content-primary font-heading-h6-bold lg:gap-[40px] lg:pl-0 lg:box-border md:w-layout-width sm:w-layout-width">
       <div className="self-stretch bg-surface-surface-primary flex flex-col items-center justify-start py-spacing-spacing-xs px-margin text-center text-21xl text-content-content-on-brand">
+=======
+    <div className="relative bg-surface-surface-background w-layout-width flex flex-col items-center justify-start text-left text-29xl text-content-content-primary font-label-l2-bold lg:gap-[40px] lg:pl-0 lg:box-border md:w-layout-width sm:w-layout-width">
+      <div className="self-stretch bg-surface-surface-primary flex flex-col items-center justify-start py-spacing-spacing-xs px-margin text-center text-21xl text-content-content-on-brand font-aquire">
+
+>>>>>>> Incoming
         <div className="self-stretch shadow-[0px_1px_2px_rgba(78,_81,_83,_0.1)] flex flex-row items-center justify-between">
+<<<<<<< HEAD
           <b className="relative leading-[48px] text-transparent !bg-clip-text [background:radial-gradient(50%_50%_at_50%_50%,_#6d3da9,_#ac6aff)] [-webkit-background-clip:text] [-webkit-text-fill-color:transparent]">
             SYNTHLETE
           </b>
           <div className="rounded-radius-radius-2xs bg-content-content-brand shrink-0 flex flex-row items-center justify-center text-base">
+=======
+          <div className="self-stretch shrink-0 flex flex-col items-center justify-between">
+            <div className="self-stretch flex-1 flex flex-row items-center justify-start gap-[12px]">
+              <div className="flex flex-col items-center justify-center">
+                <div className="shrink-0 flex flex-row items-center justify-center py-0 px-[0.8333333134651184px]">
+                  <img
+                    className="relative w-[23.3px] h-[25px] object-cover"
+                    alt=""
+                    src="/vector@2x.png"
+                  />
+                </div>
+              </div>
+              <div className="w-[245px] flex flex-row items-center justify-start">
+                <b className="flex-1 relative uppercase text-transparent !bg-clip-text [background:radial-gradient(50%_50%_at_50%_50%,_#6d3da9,_#ac6aff)] [-webkit-background-clip:text] [-webkit-text-fill-color:transparent]">
+                  SYNTHLETE
+                </b>
+              </div>
+            </div>
+          </div>
+          <div className="rounded-radius-radius-2xs bg-content-content-brand shrink-0 flex flex-row items-center justify-center text-base font-label-l2-bold">
+
+>>>>>>> Incoming
             <div className="rounded-radius-radius-2xs h-9 flex flex-row items-center justify-center py-0 px-spacing-spacing-2xs box-border">
               <div className="bg-base-transparent overflow-hidden hidden flex-col items-center justify-center">
                 <img
@@ -42,14 +71,24 @@ const HomepageDesktopLarge: NextPage = () => {
           </div>
         </div>
       </div>
+<<<<<<< HEAD
       <section className="self-stretch flex flex-col items-center justify-start py-spacing-spacing-lg px-margin gap-[40px] text-center text-37xl text-content-content-primary font-heading-h6-bold lg:pl-20 lg:pr-20 lg:box-border">
+=======
+      <section className="self-stretch flex flex-col items-center justify-start py-spacing-spacing-lg px-margin gap-[40px] text-center text-37xl text-content-content-primary font-label-l2-bold lg:pl-20 lg:pr-20 lg:box-border">
+
+>>>>>>> Incoming
         <div className="self-stretch flex flex-col items-center justify-center py-0 px-spacing-spacing-4xl gap-[48px]">
           <div className="self-stretch flex flex-col items-center justify-start gap-[48px]">
             <b className="self-stretch relative leading-[64px] whitespace-pre-wrap lg:text-29xl lg:leading-[56px]">
               <span>{`Unleash the Power of  Human-Owned Virtual `}</span>
               <span className="text-content-content-brand">{`AI Athletes `}</span>
             </b>
+<<<<<<< HEAD
             <div className="self-stretch flex flex-col items-center justify-start text-xl text-content-content-secondary font-body-b6-medium">
+=======
+            <div className="self-stretch flex flex-col items-center justify-start text-xl text-border-border-secondary font-body-b6-medium">
+
+>>>>>>> Incoming
               <div className="self-stretch relative tracking-[0.01em] leading-[30px] font-medium">
                 Lacra Labs stands at the forefront of the entertainment and
                 competition sectors, pioneering the use of generative AI to
@@ -64,12 +103,22 @@ const HomepageDesktopLarge: NextPage = () => {
             </div>
           </div>
           <div className="rounded-radius-radius-2xs bg-surface-surface-secondary flex flex-row items-center justify-center text-base text-content-content-brand">
+<<<<<<< HEAD
             <div className="rounded-radius-radius-2xs box-border h-9 flex flex-row items-center justify-center py-0 px-spacing-spacing-2xs border-[1px] border-solid border-content-content-secondary">
+=======
+            <div className="rounded-radius-radius-2xs box-border h-9 flex flex-row items-center justify-center py-0 px-spacing-spacing-2xs border-[1px] border-solid border-border-border-secondary">
+
+>>>>>>> Incoming
               <div className="bg-base-transparent overflow-hidden hidden flex-col items-center justify-center">
                 <img
                   className="relative w-4 h-4 shrink-0 object-cover"
                   alt=""
+<<<<<<< HEAD
                   src="/chevron-down@2x.png"
+=======
+                  src="/chevron-down1@2x.png"
+
+>>>>>>> Incoming
                 />
               </div>
               <div className="flex flex-row items-center justify-center py-0 px-1.5">
@@ -81,7 +130,12 @@ const HomepageDesktopLarge: NextPage = () => {
                 <img
                   className="relative w-4 h-4 overflow-hidden shrink-0 object-cover"
                   alt=""
+<<<<<<< HEAD
                   src="/vector@2x.png"
+=======
+                  src="/vector1@2x.png"
+
+>>>>>>> Incoming
                 />
               </div>
             </div>
@@ -110,31 +164,56 @@ const HomepageDesktopLarge: NextPage = () => {
       <div className="self-stretch bg-surface-surface-secondary flex flex-row items-center justify-start py-spacing-spacing-sm px-margin gap-[64px] text-13xl lg:pl-20 lg:pr-20 lg:box-border">
         <div className="self-stretch flex-1 flex flex-col items-center justify-center py-0 px-spacing-spacing-xs box-border min-h-[64px]">
           <b className="relative leading-[40px]">3.1B+</b>
+<<<<<<< HEAD
           <b className="relative text-lg tracking-[0.01em] leading-[28px] font-body-b6-medium text-content-content-secondary">
+=======
+          <b className="relative text-lg tracking-[0.01em] leading-[28px] font-body-b6-medium text-border-border-secondary">
+
+>>>>>>> Incoming
             Data Points
           </b>
         </div>
         <div className="self-stretch flex-1 flex flex-col items-center justify-center py-0 px-spacing-spacing-xs box-border min-h-[64px]">
           <b className="relative leading-[40px]">1,000</b>
+<<<<<<< HEAD
           <b className="relative text-lg tracking-[0.01em] leading-[28px] font-body-b6-medium text-content-content-secondary">
+=======
+          <b className="relative text-lg tracking-[0.01em] leading-[28px] font-body-b6-medium text-border-border-secondary">
+
+>>>>>>> Incoming
             Virtual Arenas
           </b>
         </div>
         <div className="self-stretch flex-1 flex flex-col items-center justify-center py-0 px-spacing-spacing-xs box-border min-h-[64px]">
           <b className="relative leading-[40px]">4+</b>
+<<<<<<< HEAD
           <b className="relative text-lg tracking-[0.01em] leading-[28px] font-body-b6-medium text-content-content-secondary">
+=======
+          <b className="relative text-lg tracking-[0.01em] leading-[28px] font-body-b6-medium text-border-border-secondary">
+
+>>>>>>> Incoming
             Game Types
           </b>
         </div>
         <div className="self-stretch flex-1 flex flex-col items-center justify-center py-0 px-spacing-spacing-xs box-border min-h-[64px]">
           <b className="relative leading-[40px]">100’s</b>
+<<<<<<< HEAD
           <b className="relative text-lg tracking-[0.01em] leading-[28px] font-body-b6-medium text-content-content-secondary">
+=======
+          <b className="relative text-lg tracking-[0.01em] leading-[28px] font-body-b6-medium text-border-border-secondary">
+
+>>>>>>> Incoming
             Daily Contests
           </b>
         </div>
         <div className="self-stretch flex-1 flex flex-col items-center justify-center py-0 px-spacing-spacing-xs box-border min-h-[64px]">
           <b className="relative leading-[40px]">Infinite</b>
+<<<<<<< HEAD
           <b className="relative text-lg tracking-[0.01em] leading-[28px] font-body-b6-medium text-content-content-secondary">
+=======
+          <b className="relative text-lg tracking-[0.01em] leading-[28px] font-body-b6-medium text-border-border-secondary">
+
+>>>>>>> Incoming
             Personas
           </b>
         </div>
@@ -145,7 +224,12 @@ const HomepageDesktopLarge: NextPage = () => {
             <p className="m-0">{`The Digital Influencer `}</p>
             <p className="m-0">You Never Knew You Needed</p>
           </b>
+<<<<<<< HEAD
           <div className="self-stretch flex flex-col items-center justify-start text-lg text-content-content-secondary font-body-b6-medium">
+=======
+          <div className="self-stretch flex flex-col items-center justify-start text-lg text-border-border-secondary font-body-b6-medium">
+
+>>>>>>> Incoming
             <div className="self-stretch relative tracking-[0.01em] leading-[28px] font-medium">
               Experience the thrill of owning a virtual AI athlete, with a
               distinct personality and backstory, and competing in exclusive,
@@ -167,7 +251,12 @@ const HomepageDesktopLarge: NextPage = () => {
                   <b className="self-stretch relative leading-[40px]">
                     Virtual Athletes
                   </b>
+<<<<<<< HEAD
                   <div className="self-stretch relative text-base tracking-[0.01em] leading-[24px] font-medium font-body-b6-medium text-content-content-secondary">
+=======
+                  <div className="self-stretch relative text-base tracking-[0.01em] leading-[24px] font-medium font-body-b6-medium text-border-border-secondary">
+
+>>>>>>> Incoming
                     Join the elite ranks of AI athletes and compete in thrilling
                     global tournaments, where the victors earn millions in prize
                     money. It's your chance to showcase your skills and dominate
@@ -181,7 +270,12 @@ const HomepageDesktopLarge: NextPage = () => {
                   <img
                     className="relative rounded-sm w-[26px] h-[10.2px] object-cover"
                     alt=""
+<<<<<<< HEAD
                     src="/vector@2x.png"
+=======
+                    src="/vector2@2x.png"
+
+>>>>>>> Incoming
                   />
                 </div>
               </div>
@@ -190,7 +284,12 @@ const HomepageDesktopLarge: NextPage = () => {
                   <b className="self-stretch relative leading-[40px]">
                     Made For You
                   </b>
+<<<<<<< HEAD
                   <div className="self-stretch relative text-base tracking-[0.01em] leading-[24px] font-medium font-body-b6-medium text-content-content-secondary">
+=======
+                  <div className="self-stretch relative text-base tracking-[0.01em] leading-[24px] font-medium font-body-b6-medium text-border-border-secondary">
+
+>>>>>>> Incoming
                     Create your very own AI athlete and watch as it evolves and
                     learns, adapting to your unique training methods and
                     strategies.
@@ -203,7 +302,12 @@ const HomepageDesktopLarge: NextPage = () => {
                   <img
                     className="relative rounded-sm w-[26px] h-[10.2px] object-cover"
                     alt=""
+<<<<<<< HEAD
                     src="/vector@2x.png"
+=======
+                    src="/vector2@2x.png"
+
+>>>>>>> Incoming
                   />
                 </div>
               </div>
@@ -214,7 +318,12 @@ const HomepageDesktopLarge: NextPage = () => {
                   <b className="self-stretch relative leading-[40px]">
                     AI Influencers
                   </b>
+<<<<<<< HEAD
                   <div className="self-stretch relative text-base tracking-[0.01em] leading-[24px] font-medium font-body-b6-medium text-content-content-secondary">
+=======
+                  <div className="self-stretch relative text-base tracking-[0.01em] leading-[24px] font-medium font-body-b6-medium text-border-border-secondary">
+
+>>>>>>> Incoming
                     Extend your AI athlete's influence beyond the virtual world.
                     Cultivate a unique public persona, engage with your fanbase,
                     and establish a strong social media presence. Connect with
@@ -229,7 +338,12 @@ const HomepageDesktopLarge: NextPage = () => {
                   <img
                     className="relative rounded-sm w-[26px] h-[10.2px] object-cover"
                     alt=""
+<<<<<<< HEAD
                     src="/vector@2x.png"
+=======
+                    src="/vector2@2x.png"
+
+>>>>>>> Incoming
                   />
                 </div>
               </div>
@@ -238,7 +352,12 @@ const HomepageDesktopLarge: NextPage = () => {
                   <b className="self-stretch relative leading-[40px]">
                     Infinite Value
                   </b>
+<<<<<<< HEAD
                   <div className="self-stretch relative text-base tracking-[0.01em] leading-[24px] font-medium font-body-b6-medium text-content-content-secondary">
+=======
+                  <div className="self-stretch relative text-base tracking-[0.01em] leading-[24px] font-medium font-body-b6-medium text-border-border-secondary">
+
+>>>>>>> Incoming
                     Our virtual world never stops evolving. With new sports and
                     esports, large language models, advancements in AI, and
                     more. And that’s why getting in early is key!
@@ -251,7 +370,12 @@ const HomepageDesktopLarge: NextPage = () => {
                   <img
                     className="relative rounded-sm w-[26px] h-[10.2px] object-cover"
                     alt=""
+<<<<<<< HEAD
                     src="/vector@2x.png"
+=======
+                    src="/vector2@2x.png"
+
+>>>>>>> Incoming
                   />
                 </div>
               </div>
@@ -259,7 +383,12 @@ const HomepageDesktopLarge: NextPage = () => {
           </div>
         </div>
       </div>
+<<<<<<< HEAD
       <section className="self-stretch flex flex-col items-center justify-start py-spacing-spacing-lg px-margin gap-[40px] text-left text-xs text-content-content-secondary font-heading-h6-bold lg:pl-20 lg:pr-20 lg:box-border">
+=======
+      <section className="self-stretch flex flex-col items-center justify-start py-spacing-spacing-lg px-margin gap-[40px] text-left text-xs text-border-border-secondary font-label-l2-bold lg:pl-20 lg:pr-20 lg:box-border">
+
+>>>>>>> Incoming
         <div className="self-stretch flex flex-row items-center justify-center py-spacing-spacing-4xl px-0 gap-[48px] md:w-[768px] md:flex-col md:pt-[68px] md:pb-[68px] md:box-border sm:w-[360px] sm:flex-col sm:pt-16 sm:pb-16 sm:box-border">
           <img
             className="flex-1 max-w-full overflow-hidden max-h-full object-cover md:flex-[unset] md:self-stretch sm:flex-[unset] sm:self-stretch"
@@ -288,7 +417,12 @@ const HomepageDesktopLarge: NextPage = () => {
                   <b className="self-stretch relative leading-[56px] lg:text-21xl lg:leading-[48px]">
                     Simulacrum Agents that learn, train and win 24/7!
                   </b>
+<<<<<<< HEAD
                   <p className="m-0 self-stretch relative text-lg tracking-[0.01em] leading-[28px] font-medium font-body-b6-medium text-content-content-secondary">
+=======
+                  <p className="m-0 self-stretch relative text-lg tracking-[0.01em] leading-[28px] font-medium font-body-b6-medium text-border-border-secondary">
+
+>>>>>>> Incoming
                     <span className="block">
                       Envision a future where AI agents, owned by humans,
                       inhabit virtual realms, honing their skills and competing
@@ -319,8 +453,14 @@ const HomepageDesktopLarge: NextPage = () => {
             </div>
           </div>
         </div>
+<<<<<<< HEAD
         <nav className="m-0 self-stretch flex flex-row items-start justify-center gap-[24px] text-left text-xs text-content-content-secondary font-heading-h6-bold md:flex-col sm:flex-col">
           <div className="flex-1 flex flex-col items-start justify-start py-spacing-spacing-sm px-0 gap-[24px] border-t-[2px] border-solid border-content-content-secondary md:flex-[unset] md:self-stretch sm:flex-[unset] sm:self-stretch">
+=======
+        <nav className="m-0 self-stretch flex flex-row items-start justify-center gap-[24px] text-left text-xs text-border-border-secondary font-label-l2-bold md:flex-col sm:flex-col">
+          <div className="flex-1 flex flex-col items-start justify-start py-spacing-spacing-sm px-0 gap-[24px] border-t-[2px] border-solid border-border-border-secondary md:flex-[unset] md:self-stretch sm:flex-[unset] sm:self-stretch">
+
+>>>>>>> Incoming
             <div className="self-stretch flex flex-col items-start justify-start gap-[4px]">
               <b className="self-stretch relative tracking-[0.03em] leading-[18px]">
                 01.
@@ -350,7 +490,12 @@ const HomepageDesktopLarge: NextPage = () => {
               no time!
             </div>
           </div>
+<<<<<<< HEAD
           <div className="flex-1 flex flex-col items-start justify-start py-spacing-spacing-sm px-0 gap-[24px] border-t-[2px] border-solid border-content-content-secondary md:flex-[unset] md:self-stretch sm:flex-[unset] sm:self-stretch">
+=======
+          <div className="flex-1 flex flex-col items-start justify-start py-spacing-spacing-sm px-0 gap-[24px] border-t-[2px] border-solid border-border-border-secondary md:flex-[unset] md:self-stretch sm:flex-[unset] sm:self-stretch">
+
+>>>>>>> Incoming
             <div className="self-stretch flex flex-col items-start justify-start gap-[4px]">
               <b className="self-stretch relative tracking-[0.03em] leading-[18px]">
                 03.
@@ -364,7 +509,12 @@ const HomepageDesktopLarge: NextPage = () => {
               esports for millions in prize money.
             </div>
           </div>
+<<<<<<< HEAD
           <div className="flex-1 flex flex-col items-start justify-start py-spacing-spacing-sm px-0 gap-[24px] border-t-[2px] border-solid border-content-content-secondary md:flex-[unset] md:self-stretch sm:flex-[unset] sm:self-stretch">
+=======
+          <div className="flex-1 flex flex-col items-start justify-start py-spacing-spacing-sm px-0 gap-[24px] border-t-[2px] border-solid border-border-border-secondary md:flex-[unset] md:self-stretch sm:flex-[unset] sm:self-stretch">
+
+>>>>>>> Incoming
             <div className="self-stretch flex flex-col items-start justify-start gap-[4px]">
               <b className="self-stretch relative tracking-[0.03em] leading-[18px]">
                 04.
@@ -385,7 +535,12 @@ const HomepageDesktopLarge: NextPage = () => {
           <div className="flex-1 flex flex-col items-start justify-start gap-[48px] md:flex-[unset] md:self-stretch sm:flex-[unset] sm:self-stretch">
             <div className="self-stretch flex flex-col items-start justify-start gap-[24px]">
               <b className="self-stretch relative leading-[56px] lg:text-21xl lg:leading-[48px]">{`Sports Betting & Wagering`}</b>
+<<<<<<< HEAD
               <div className="self-stretch relative text-lg tracking-[0.01em] leading-[28px] font-medium font-body-b6-medium text-content-content-secondary">
+=======
+              <div className="self-stretch relative text-lg tracking-[0.01em] leading-[28px] font-medium font-body-b6-medium text-border-border-secondary">
+
+>>>>>>> Incoming
                 Onix delivers tamper-proof inputs, outputs, and computations to
                 support advanced smart contracts on any blockchain.
               </div>
@@ -439,7 +594,12 @@ const HomepageDesktopLarge: NextPage = () => {
           </div>
         </div>
       </div>
+<<<<<<< HEAD
       <div className="self-stretch flex flex-col items-center justify-start py-spacing-spacing-lg px-margin text-xs text-content-content-secondary">
+=======
+      <div className="self-stretch flex flex-col items-center justify-start py-spacing-spacing-lg px-margin text-xs text-border-border-secondary">
+
+>>>>>>> Incoming
         <div className="self-stretch flex flex-row items-center justify-center py-spacing-spacing-4xl px-0 gap-[50px] md:flex-col sm:flex-col">
           <img
             className="flex-1 max-w-full overflow-hidden max-h-full object-cover md:flex-[unset] md:self-stretch sm:flex-[unset] sm:self-stretch"
@@ -466,7 +626,12 @@ const HomepageDesktopLarge: NextPage = () => {
               <div className="self-stretch flex flex-col items-center justify-center">
                 <div className="self-stretch flex flex-col items-start justify-start gap-[24px]">
                   <b className="self-stretch relative leading-[56px] lg:text-21xl lg:leading-[48px]">{`Digital Stadium & Arenas`}</b>
+<<<<<<< HEAD
                   <p className="m-0 self-stretch relative text-lg tracking-[0.01em] leading-[28px] font-medium font-body-b6-medium text-content-content-secondary">
+=======
+                  <p className="m-0 self-stretch relative text-lg tracking-[0.01em] leading-[28px] font-medium font-body-b6-medium text-border-border-secondary">
+
+>>>>>>> Incoming
                     Lacra Labs also offers the opportunity to own a Metarena,
                     your very own space where you get to call the shots. These
                     Metarenas are tailored to the sport or event you're
@@ -486,20 +651,31 @@ const HomepageDesktopLarge: NextPage = () => {
         </div>
       </div>
       <div className="self-stretch flex flex-col items-center justify-start py-spacing-spacing-lg px-margin">
+<<<<<<< HEAD
         <section className="self-stretch h-[848px] flex flex-row items-start justify-center py-spacing-spacing-xl px-0 box-border gap-[48px] text-left text-29xl text-content-content-primary font-heading-h6-bold sm:flex-col">
+=======
+        <section className="self-stretch h-[848px] flex flex-row items-start justify-center py-spacing-spacing-xl px-0 box-border gap-[48px] text-left text-29xl text-content-content-primary font-label-l2-bold sm:flex-col">
+
+>>>>>>> Incoming
           <div className="self-stretch flex-1 rounded-radius-radius-md overflow-hidden flex flex-col items-center justify-start sm:flex-[unset] sm:self-stretch">
             <div className="self-stretch flex flex-col items-start justify-start p-12 gap-[36px]">
               <div className="self-stretch flex flex-col items-start justify-start gap-[24px]">
                 <b className="self-stretch relative leading-[56px] lg:text-21xl lg:leading-[48px]">
                   Robust Data Models
                 </b>
+<<<<<<< HEAD
                 <div className="self-stretch relative text-lg tracking-[0.01em] leading-[28px] font-medium font-body-b6-medium text-content-content-secondary">
+=======
+                <div className="self-stretch relative text-lg tracking-[0.01em] leading-[28px] font-medium font-body-b6-medium text-border-border-secondary">
+
+>>>>>>> Incoming
                   100M+ data points, built on decades of real-life sports and
                   esports.
                 </div>
               </div>
               <div className="self-stretch flex flex-row items-center justify-between">
                 <div className="rounded-radius-radius-sm bg-surface-surface-primary shrink-0 flex flex-row items-center justify-center p-4">
+<<<<<<< HEAD
                   <div className="bg-base-transparent overflow-hidden flex flex-col items-center justify-center">
                     <img
                       className="relative w-6 h-6 object-cover"
@@ -507,8 +683,17 @@ const HomepageDesktopLarge: NextPage = () => {
                       src="/monitor-recorder@2x.png"
                     />
                   </div>
+=======
+                  <img
+                    className="relative w-6 h-6 object-cover"
+                    alt=""
+                    src="/monitor-recorder@2x.png"
+                  />
+
+>>>>>>> Incoming
                 </div>
                 <div className="rounded-radius-radius-sm bg-surface-surface-primary shrink-0 flex flex-row items-center justify-center p-4">
+<<<<<<< HEAD
                   <div className="bg-base-transparent overflow-hidden flex flex-col items-center justify-center">
                     <img
                       className="relative w-6 h-6 object-cover"
@@ -516,6 +701,14 @@ const HomepageDesktopLarge: NextPage = () => {
                       src="/record-circle@2x.png"
                     />
                   </div>
+=======
+                  <img
+                    className="relative w-6 h-6 object-cover"
+                    alt=""
+                    src="/record-circle@2x.png"
+                  />
+
+>>>>>>> Incoming
                 </div>
                 <div className="rounded-2xl relative flex items-center justify-center">
                   <img
@@ -527,6 +720,7 @@ const HomepageDesktopLarge: NextPage = () => {
                   />
                 </div>
                 <div className="rounded-radius-radius-sm bg-surface-surface-primary shrink-0 flex flex-row items-center justify-center p-4">
+<<<<<<< HEAD
                   <div className="bg-base-transparent overflow-hidden flex flex-col items-center justify-center">
                     <img
                       className="relative w-6 h-6 object-cover"
@@ -534,8 +728,17 @@ const HomepageDesktopLarge: NextPage = () => {
                       src="/data@2x.png"
                     />
                   </div>
+=======
+                  <img
+                    className="relative w-6 h-6 object-cover"
+                    alt=""
+                    src="/data@2x.png"
+                  />
+
+>>>>>>> Incoming
                 </div>
                 <div className="rounded-radius-radius-sm bg-surface-surface-primary shrink-0 flex flex-row items-center justify-center p-4">
+<<<<<<< HEAD
                   <div className="bg-base-transparent overflow-hidden flex flex-col items-center justify-center">
                     <img
                       className="relative w-6 h-6 object-cover"
@@ -543,6 +746,14 @@ const HomepageDesktopLarge: NextPage = () => {
                       src="/code@2x.png"
                     />
                   </div>
+=======
+                  <img
+                    className="relative w-6 h-6 object-cover"
+                    alt=""
+                    src="/code@2x.png"
+                  />
+
+>>>>>>> Incoming
                 </div>
               </div>
             </div>
@@ -560,7 +771,12 @@ const HomepageDesktopLarge: NextPage = () => {
                   <b className="self-stretch relative leading-[32px]">
                     My Team
                   </b>
+<<<<<<< HEAD
                   <div className="self-stretch rounded-radius-radius-xs bg-surface-surface-primary overflow-hidden flex flex-row items-center justify-start py-spacing-spacing-2xs px-spacing-spacing-3xs gap-[8px] text-base text-content-content-secondary">
+=======
+                  <div className="self-stretch rounded-radius-radius-xs bg-surface-surface-primary overflow-hidden flex flex-row items-center justify-start py-spacing-spacing-2xs px-spacing-spacing-3xs gap-[8px] text-base text-border-border-secondary">
+
+>>>>>>> Incoming
                     <div className="bg-base-transparent overflow-hidden flex flex-col items-center justify-center">
                       <img
                         className="relative w-6 h-6 overflow-hidden shrink-0 object-cover"
@@ -603,6 +819,7 @@ const HomepageDesktopLarge: NextPage = () => {
                       Synthlete_002
                     </b>
                   </div>
+<<<<<<< HEAD
                   <div className="bg-base-transparent overflow-hidden flex flex-col items-center justify-center">
                     <img
                       className="relative w-6 h-6 overflow-hidden shrink-0 object-cover"
@@ -610,6 +827,14 @@ const HomepageDesktopLarge: NextPage = () => {
                       src="/chevron-right@2x.png"
                     />
                   </div>
+=======
+                  <img
+                    className="relative w-6 h-6 overflow-hidden shrink-0 object-cover"
+                    alt=""
+                    src="/chevron-right@2x.png"
+                  />
+
+>>>>>>> Incoming
                 </div>
                 <div className="self-stretch bg-surface-surface-primary flex flex-row items-center justify-start py-spacing-spacing-xs px-spacing-spacing-sm border-t-[1px] border-solid border-content-content-primary">
                   <div className="flex-1 shrink-0 flex flex-row items-center justify-start gap-[20px]">
@@ -622,6 +847,7 @@ const HomepageDesktopLarge: NextPage = () => {
                       Synthlete_003
                     </b>
                   </div>
+<<<<<<< HEAD
                   <div className="bg-base-transparent overflow-hidden flex flex-col items-center justify-center">
                     <img
                       className="relative w-6 h-6 overflow-hidden shrink-0 object-cover"
@@ -629,6 +855,14 @@ const HomepageDesktopLarge: NextPage = () => {
                       src="/chevron-right@2x.png"
                     />
                   </div>
+=======
+                  <img
+                    className="relative w-6 h-6 overflow-hidden shrink-0 object-cover"
+                    alt=""
+                    src="/chevron-right@2x.png"
+                  />
+
+>>>>>>> Incoming
                 </div>
                 <div className="self-stretch bg-surface-surface-primary flex flex-row items-center justify-start py-spacing-spacing-xs px-spacing-spacing-sm border-t-[1px] border-solid border-content-content-primary">
                   <div className="flex-1 shrink-0 flex flex-row items-center justify-start gap-[20px]">
@@ -641,6 +875,7 @@ const HomepageDesktopLarge: NextPage = () => {
                       Synthlete_004
                     </b>
                   </div>
+<<<<<<< HEAD
                   <div className="bg-base-transparent overflow-hidden flex flex-col items-center justify-center">
                     <img
                       className="relative w-6 h-6 overflow-hidden shrink-0 object-cover"
@@ -648,14 +883,32 @@ const HomepageDesktopLarge: NextPage = () => {
                       src="/chevron-right@2x.png"
                     />
                   </div>
+=======
+                  <img
+                    className="relative w-6 h-6 overflow-hidden shrink-0 object-cover"
+                    alt=""
+                    src="/chevron-right@2x.png"
+                  />
+
+>>>>>>> Incoming
                 </div>
               </div>
             </div>
+<<<<<<< HEAD
             <div className="self-stretch flex flex-col items-center justify-start p-12 gap-[24px] text-center text-29xl font-heading-h6-bold">
+=======
+            <div className="self-stretch flex flex-col items-center justify-start p-12 gap-[24px] text-29xl font-label-l2-bold">
+
+>>>>>>> Incoming
               <b className="self-stretch relative leading-[56px] lg:text-21xl lg:leading-[48px]">
                 Manage a Team of AI Athletes
               </b>
+<<<<<<< HEAD
               <div className="self-stretch relative text-lg tracking-[0.01em] leading-[28px] font-medium font-body-b6-medium text-content-content-secondary">
+=======
+              <div className="self-stretch relative text-lg tracking-[0.01em] leading-[28px] font-medium font-body-b6-medium text-border-border-secondary text-center">
+
+>>>>>>> Incoming
                 Host a wide range of contest types, training classes, events,
                 and more!
               </div>
@@ -663,7 +916,12 @@ const HomepageDesktopLarge: NextPage = () => {
           </div>
         </section>
       </div>
+<<<<<<< HEAD
       <section className="self-stretch flex flex-col items-center justify-start p-20 text-center text-37xl text-content-content-brand font-heading-h6-bold">
+=======
+      <section className="self-stretch flex flex-col items-center justify-start p-20 text-center text-37xl text-content-content-brand font-label-l2-bold">
+
+>>>>>>> Incoming
         <div className="self-stretch flex flex-col items-center justify-center gap-[48px]">
           <div className="self-stretch flex flex-col items-center justify-start gap-[24px]">
             <div className="self-stretch flex flex-col items-center justify-start">
@@ -671,7 +929,12 @@ const HomepageDesktopLarge: NextPage = () => {
                 Don’t Miss Your Chance
               </b>
             </div>
+<<<<<<< HEAD
             <div className="self-stretch relative text-lg tracking-[0.01em] leading-[28px] font-medium font-body-b6-medium text-content-content-secondary">
+=======
+            <div className="self-stretch relative text-lg tracking-[0.01em] leading-[28px] font-medium font-body-b6-medium text-border-border-secondary">
+
+>>>>>>> Incoming
               <p className="m-0">
                 Claim your spot in the future of athleticism, entertainment and
                 technology.
@@ -680,12 +943,22 @@ const HomepageDesktopLarge: NextPage = () => {
             </div>
           </div>
           <div className="rounded-radius-radius-2xs bg-surface-surface-secondary flex flex-row items-center justify-center text-base">
+<<<<<<< HEAD
             <div className="rounded-radius-radius-2xs box-border h-9 flex flex-row items-center justify-center py-0 px-spacing-spacing-2xs border-[1px] border-solid border-content-content-secondary">
+=======
+            <div className="rounded-radius-radius-2xs box-border h-9 flex flex-row items-center justify-center py-0 px-spacing-spacing-2xs border-[1px] border-solid border-border-border-secondary">
+
+>>>>>>> Incoming
               <div className="bg-base-transparent overflow-hidden hidden flex-col items-center justify-center">
                 <img
                   className="relative w-4 h-4 shrink-0 object-cover"
                   alt=""
+<<<<<<< HEAD
                   src="/chevron-down@2x.png"
+=======
+                  src="/chevron-down2@2x.png"
+
+>>>>>>> Incoming
                 />
               </div>
               <div className="flex flex-row items-center justify-center py-0 px-1.5">
@@ -697,7 +970,12 @@ const HomepageDesktopLarge: NextPage = () => {
                 <img
                   className="relative w-4 h-4 overflow-hidden shrink-0 object-cover"
                   alt=""
+<<<<<<< HEAD
                   src="/vector@2x.png"
+=======
+                  src="/vector3@2x.png"
+
+>>>>>>> Incoming
                 />
               </div>
             </div>
@@ -705,8 +983,14 @@ const HomepageDesktopLarge: NextPage = () => {
         </div>
       </section>
       <div className="self-stretch flex flex-col items-center justify-start py-0 px-margin">
+<<<<<<< HEAD
         <footer className="self-stretch flex flex-col items-center justify-start py-spacing-spacing-xl px-0 gap-[48px] text-center text-13xl text-content-content-secondary font-heading-h6-bold lg:pl-20 lg:pr-20 lg:box-border">
+=======
+        <footer className="self-stretch flex flex-col items-center justify-start py-spacing-spacing-xl px-0 gap-[48px] text-center text-21xl text-border-border-secondary font-aquire lg:pl-20 lg:pr-20 lg:box-border">
+
+>>>>>>> Incoming
           <div className="self-stretch flex flex-row items-center justify-between">
+<<<<<<< HEAD
             <div className="self-stretch flex flex-row items-center justify-start gap-[24px]">
               <img
                 className="max-w-full overflow-hidden max-h-full object-cover"
@@ -717,6 +1001,25 @@ const HomepageDesktopLarge: NextPage = () => {
                 <b className="relative leading-[40px] text-transparent !bg-clip-text [background:radial-gradient(50%_50%_at_50%_50%,_#6d3da9,_#ac6aff)] [-webkit-background-clip:text] [-webkit-text-fill-color:transparent]">
                   SYNTHLETE
                 </b>
+=======
+            <div className="self-stretch shrink-0 flex flex-col items-center justify-between">
+              <div className="self-stretch flex-1 flex flex-row items-center justify-start gap-[12px]">
+                <div className="flex flex-col items-center justify-center">
+                  <div className="shrink-0 flex flex-row items-center justify-center py-0 px-[0.8333333134651184px]">
+                    <img
+                      className="relative w-[23.3px] h-[25px] object-cover"
+                      alt=""
+                      src="/vector@2x.png"
+                    />
+                  </div>
+                </div>
+                <div className="flex flex-row items-center justify-start">
+                  <b className="relative uppercase text-transparent !bg-clip-text [background:radial-gradient(50%_50%_at_50%_50%,_#6d3da9,_#ac6aff)] [-webkit-background-clip:text] [-webkit-text-fill-color:transparent]">
+                    SYNTHLETE
+                  </b>
+                </div>
+
+>>>>>>> Incoming
               </div>
             </div>
             <div className="shrink-0 flex flex-row items-start justify-start text-sm font-body-b6-medium">
@@ -755,6 +1058,7 @@ const HomepageDesktopLarge: NextPage = () => {
               © 2023 ESPORTS ONE INC
             </div>
             <div className="self-stretch flex flex-row items-center justify-end gap-[48px]">
+<<<<<<< HEAD
               <div
                 className="overflow-hidden flex flex-row items-start justify-start cursor-pointer"
                 onClick={onDiscordContainerClick}
@@ -806,6 +1110,34 @@ const HomepageDesktopLarge: NextPage = () => {
                   />
                 </div>
               </div>
+=======
+              <img
+                className="relative w-6 h-6 object-cover"
+                alt=""
+                src="/discord@2x.png"
+              />
+              <img
+                className="relative w-6 h-6 overflow-hidden shrink-0 object-cover"
+                alt=""
+                src="/twitter@2x.png"
+              />
+              <img
+                className="relative w-6 h-6 overflow-hidden shrink-0 object-cover"
+                alt=""
+                src="/instagram@2x.png"
+              />
+              <img
+                className="relative w-6 h-6 overflow-hidden shrink-0 object-cover"
+                alt=""
+                src="/facebook@2x.png"
+              />
+              <img
+                className="relative w-6 h-6 overflow-hidden shrink-0 object-cover"
+                alt=""
+                src="/telegram@2x.png"
+              />
+
+>>>>>>> Incoming
             </div>
           </div>
         </footer>

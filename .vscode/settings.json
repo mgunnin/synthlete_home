@@ -1,0 +1,21 @@
+{
+  "detectedConfig": {
+    "typescript": true,
+    "naming": "Pascal Case",
+    "unit": "px",
+    "framework": "nextjs",
+    "styling": "Tailwind"
+  },
+  "locofyConfig": {
+    "project_name": "Synthlete",
+    "id": "65807033a2cd462eba22d949",
+    "framework": "react-nextjs",
+    "typescript": true,
+    "path": "public/",
+    "componentsPath": "/Users/mattgunnin/Sites/AI/00_Active/Synthlete/src/components",
+    "screensPath": "/Users/mattgunnin/Sites/AI/00_Active/Synthlete/pages",
+    "styling": "Tailwind",
+    "unit": "px",
+    "naming": "Kebab Case"
+  }
+}

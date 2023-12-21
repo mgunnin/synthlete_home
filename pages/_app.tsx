@@ -13,7 +13,12 @@ function MyApp({ Component, pageProps }: AppProps) {
           content="minimum-scale=1, initial-scale=1, width=device-width"
         />
         <link rel="icon" href="favicon.ico" />
+<<<<<<< HEAD
         <meta property="og:image" content="/thumbnail.png" />
+=======
+        <meta property="og:image" content="thumbnail.png" />
+
+>>>>>>> Incoming
       </Head>
       <Component {...pageProps} />
     </Fragment>

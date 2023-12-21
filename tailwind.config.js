@@ -7,6 +7,15 @@ module.exports = {
   theme: {
     extend: {
       colors: {
+<<<<<<< HEAD
+=======
+        "surface-surface-secondary": "#232323",
+        "border-border-secondary": "#a0a0a0",
+        "base-transparent": "rgba(255, 255, 255, 0)",
+        "content-content-brand": "#ac6aff",
+        "content-content-on-brand": "#17151f",
+
+>>>>>>> Incoming
         "surface-surface-background": "#161616",
         "base-transparent": "rgba(255, 255, 255, 0)",
         "content-content-secondary": "#a0a0a0",
@@ -22,6 +31,12 @@ module.exports = {
         "content-content-on-brand": "#17151f",
       },
       spacing: {
+<<<<<<< HEAD
+=======
+        "spacing-spacing-2xs": "12px",
+        "spacing-spacing-3xs": "8px",
+
+>>>>>>> Incoming
         "layout-width": "1440px",
         margin: "80px",
         "spacing-spacing-xl": "48px",
@@ -29,15 +44,35 @@ module.exports = {
         "spacing-spacing-sm": "24px",
         "spacing-spacing-lg": "40px",
         "spacing-spacing-4xl": "80px",
+<<<<<<< HEAD
         "spacing-spacing-2xs": "12px",
         "spacing-spacing-3xs": "8px",
+=======
+        "spacing-spacing-sm": "24px",
+
+>>>>>>> Incoming
         "spacing-spacing-xs": "16px",
         "spacing-spacing-5xs": "4px",
         "spacing-spacing-3xl": "64px",
+<<<<<<< HEAD
+=======
+        "gap-gap-md": "12px",
+
+>>>>>>> Incoming
       },
       fontFamily: {
+<<<<<<< HEAD
+=======
+        "label-l2-bold": "'Loos Wide'",
+
+>>>>>>> Incoming
         "body-b6-medium": "Montserrat",
+<<<<<<< HEAD
         "heading-h6-bold": "'Loos Wide'",
+=======
+        aquire: "Aquire",
+
+>>>>>>> Incoming
       },
       borderRadius: {
         sm: "14px",
@@ -49,9 +84,19 @@ module.exports = {
       },
     },
     fontSize: {
+<<<<<<< HEAD
+=======
+      base: "16px",
+
+>>>>>>> Incoming
       sm: "14px",
+<<<<<<< HEAD
       "13xl": "32px",
       base: "16px",
+=======
+      "21xl": "40px",
+
+>>>>>>> Incoming
       lg: "18px",
       "37xl": "56px",
       "29xl": "48px",
@@ -59,6 +104,11 @@ module.exports = {
       "5xl": "24px",
       xs: "12px",
       xl: "20px",
+<<<<<<< HEAD
+=======
+      "13xl": "32px",
+
+>>>>>>> Incoming
       inherit: "inherit",
     },
     screens: {
