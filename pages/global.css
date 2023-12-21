@@ -9,16 +9,11 @@
   src: url("/public/Loos-WideBold.otf");
   font-weight: 700;
 }
-<<<<<<< HEAD
-=======
 @font-face {
   font-family: "Aquire";
   src: url("/public/Aquire Bold.otf");
   font-weight: 700;
 }
-
->>>>>>> Incoming
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
