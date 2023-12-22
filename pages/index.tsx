@@ -1,6 +1,15 @@
 import type { NextPage } from "next";
+import React from "react";
 import styled from "styled-components";
+import { createGlobalStyle } from 'styled-components';
 
+const GlobalStyle = createGlobalStyle`
+  body {
+    background-color: #161616; 
+  }
+`;
+
+  <GlobalStyle />
 const VectorIcon = styled.img`
   position: relative;
   width: 23.3px;
@@ -1336,525 +1345,528 @@ const HomepageDesktopLargeRoot = styled.div`
 
 const HomepageDesktopLarge: NextPage = () => {
   return (
-    <HomepageDesktopLargeRoot>
-      <Containerheader>
-        <Container>
-          <Containerlogo>
-            <LogoSynthlete>
-              <LogoLacraLabsMark>
-                <Logo>
-                  <VectorIcon alt="lacra labs" src="/logo_mark@1x.png" />
-                </Logo>
-              </LogoLacraLabsMark>
-              <Typeface>
-                <LogoSynthlete1>SYNTHLETE</LogoSynthlete1>
-              </Typeface>
-            </LogoSynthlete>
-          </Containerlogo>
-          <Button>
-            <StateLayer>
-              <Iconwrapper>
-                <ChevronDownIcon alt="" src="/chevron-down@2x.png" />
-              </Iconwrapper>
-              <Textbutton>
-                <Textbutton1>SIGN UP</Textbutton1>
-              </Textbutton>
-              <Iconwrapper1>
-                <VectorIcon1 alt="" src="/vector@2x.png" />
-              </Iconwrapper1>
-            </StateLayer>
-          </Button>
-        </Container>
-      </Containerheader>
-      <Containerfeatured>
-        <HorizontalContainer>
-          <HorizontalContainer1>
-            <Texth1>
-              <UnleashThePower>{`Unleash the Power of  Human-Owned Virtual `}</UnleashThePower>
-              <AiAthletes>{`AI Athletes `}</AiAthletes>
-            </Texth1>
-            <Textarea>
-              <Textdiv>
-                Lacra Labs stands at the forefront of the entertainment and
-                competition sectors, pioneering the use of generative AI to
-                create sophisticated, human-owned synthetic athletes. Our
-                virtual AI agents are trained on a pre-existing dataset of
-                esports and sports, and honed and nurtured by humans to create a
-                symbiotic relationship unlike anything before. By shattering the
-                limitations imposed by traditional sports and esports, we're
-                reinventing a dynamic future that facilitates all new forms of
-                entertainment.
-              </Textdiv>
-            </Textarea>
-          </HorizontalContainer1>
-          <Button1>
-            <StateLayer1>
-              <Iconwrapper>
-                <ChevronDownIcon alt="" src="/chevron-down1@2x.png" />
-              </Iconwrapper>
-              <Textbutton>
-                <Textbutton1>COMING SOON</Textbutton1>
-              </Textbutton>
-              <Iconwrapper>
-                <VectorIcon1 alt="" src="/vector1@2x.png" />
-              </Iconwrapper>
-            </StateLayer1>
-          </Button1>
-        </HorizontalContainer>
-        <FeaturedImageContainer>
-          <ImageContainerIcon alt="" src="/female-gamer@1x.png" />
-          <InputText>
-            <TextBox>
-              <IconWrapper alt="" src="/icon-wrapper@2x.png" />
-              <SynthleteGenerating>
-                Your Synthlete is generating...
-              </SynthleteGenerating>
-            </TextBox>
-          </InputText>
-        </FeaturedImageContainer>
-      </Containerfeatured>
-      <Containermetrics>
-        <Number05>
-          <B>3.1B+</B>
-          <DataPoints>Data Points</DataPoints>
-        </Number05>
-        <Number05>
-          <B>1,000</B>
-          <DataPoints>Virtual Arenas</DataPoints>
-        </Number05>
-        <Number05>
-          <B>4+</B>
-          <DataPoints>Game Types</DataPoints>
-        </Number05>
-        <Number05>
-          <B>100’s</B>
-          <DataPoints>Daily Contests</DataPoints>
-        </Number05>
-        <Number05>
-          <B>Infinite</B>
-          <DataPoints>Personas</DataPoints>
-        </Number05>
-      </Containermetrics>
-      <Containerfeatures>
-        <Heading>
-          <TheDigitalInfluencerContainer>
-            <TheDigitalInfluencer>{`The Digital Influencer `}</TheDigitalInfluencer>
-            <TheDigitalInfluencer>
-              You Never Knew You Needed
-            </TheDigitalInfluencer>
-          </TheDigitalInfluencerContainer>
-          <Textdiv1>
-            <LiveVicariouslyAnd>
-              Experience the thrill of owning a virtual AI athlete, with a
-              distinct personality and backstory, and competing in exclusive,
-              avant-garde sports and esports leagues. Our AI athletes redefine
-              the world of sports and esports, and hold the potential to
-              revolutionize domains like daily fantasy, sports betting, and
-              fandom. They offer an exhilarating alternative for younger
-              generations who may not be engaged by traditional sports, while
-              enabling others to relive the excitement of playing sports in
-              their youth.
-            </LiveVicariouslyAnd>
-          </Textdiv1>
-        </Heading>
-        <Containercards>
-          <TemplateComponentsCardGri>
-            <ValuePropCardParent>
-              <ValuePropCard>
-                <TextBlock>
-                  <Headline>Virtual Athletes</Headline>
-                  <Description>
-                    Join the elite ranks of AI athletes and compete in thrilling
-                    global tournaments, where the victors earn millions in prize
-                    money. It's your chance to showcase your skills and dominate
-                    the virtual sports world.
-                  </Description>
-                </TextBlock>
-                <Bottomsection>
-                  <LearnMore>Learn more</LearnMore>
-                  <VectorIcon3 alt="" src="/vector2@2x.png" />
-                </Bottomsection>
-              </ValuePropCard>
-              <ValuePropCard>
-                <TextBlock>
-                  <Headline>Made For You</Headline>
-                  <Description>
-                    Create your very own AI athlete and watch as it evolves and
-                    learns, adapting to your unique training methods and
-                    strategies.
-                  </Description>
-                </TextBlock>
-                <Bottomsection1>
-                  <LearnMore>Learn more</LearnMore>
-                  <VectorIcon3 alt="" src="/vector2@2x.png" />
-                </Bottomsection1>
-              </ValuePropCard>
-            </ValuePropCardParent>
-            <ValuePropCardParent>
-              <ValuePropCard>
-                <TextBlock2>
-                  <Headline>AI Influencers</Headline>
-                  <Description>
-                    Extend your AI athlete's influence beyond the virtual world.
-                    Cultivate a unique public persona, engage with your fanbase,
-                    and establish a strong social media presence. Connect with
-                    fans from around the world and become a true digital sports
-                    icon.
-                  </Description>
-                </TextBlock2>
-                <Bottomsection2>
-                  <LearnMore>Learn more</LearnMore>
-                  <VectorIcon3 alt="" src="/vector2@2x.png" />
-                </Bottomsection2>
-              </ValuePropCard>
-              <ValuePropCard>
-                <TextBlock2>
-                  <Headline>Infinite Value</Headline>
-                  <Description>
-                    Our virtual world never stops evolving. With new sports and
-                    esports, large language models, advancements in AI, and
-                    more. And that’s why getting in early is key!
-                  </Description>
-                </TextBlock2>
-                <Bottomsection3>
-                  <LearnMore>Learn more</LearnMore>
-                  <VectorIcon3 alt="" src="/vector2@2x.png" />
-                </Bottomsection3>
-              </ValuePropCard>
-            </ValuePropCardParent>
-          </TemplateComponentsCardGri>
-        </Containercards>
-      </Containerfeatures>
-      <Containersection01>
-        <TemplateComponentsFeatured>
-          <FeaturedImageIcon alt="" src="/retro-player-vr-headset@2x.png" />
-          <ColumnRight>
-            <Tagline>
-              <TaglineChild alt="" src="/vector-10@2x.png" />
-              <Content>HOW IT WORKS</Content>
-              <TaglineItem alt="" src="/vector-11@2x.png" />
-            </Tagline>
-            <TextBlock4>
-              <HorizontalContainer2>
-                <TextContainer>
-                  <SportsBetting>
-                    Simulacrum Agents that learn, train and win 24/7!
-                  </SportsBetting>
-                  <Text1>
-                    <EnvisionAFuture>
-                      Envision a future where AI agents, owned by humans,
-                      inhabit virtual realms, honing their skills and competing
-                      as digital athletes. Watch as your AI athlete comes to
-                      life with its own distinct personality, shaped by its
-                      interactions with you and the world it inhabits. These
-                      virtual worlds act as hubs for sports and entertainment,
-                      fostering a constantly evolving ecosystem of training and
-                      competition.
-                    </EnvisionAFuture>
-                    <EnvisionAFuture>&nbsp;</EnvisionAFuture>
-                    <EnvisionAFuture>
-                      The elite AI athletes, trained on bespoke data models, vie
-                      for the championship title in global tournaments, with the
-                      victors earning millions in prize money, funded entirely
-                      by sponsors and fans.
-                    </EnvisionAFuture>
-                    <EnvisionAFuture>&nbsp;</EnvisionAFuture>
-                    <EnvisionAFuture>
-                      Where each AI has the potential to cultivate a unique
-                      public persona, interacting and engaging with their
-                      fanbase, establishing their own social media presence, and
-                      extending their influence on a global scale.
-                    </EnvisionAFuture>
-                  </Text1>
-                </TextContainer>
-              </HorizontalContainer2>
-            </TextBlock4>
-          </ColumnRight>
-        </TemplateComponentsFeatured>
-        <TemplateComponentsTextGri>
-          <TextBlock5>
-            <Header>
-              <Number1>01.</Number1>
-              <AcquireSynthlete>Acquire</AcquireSynthlete>
-            </Header>
-            <Text11>
-              Create your own virtual AI athlete and personalize it to your
-              liking. Metapass members being prioritized.
-            </Text11>
-          </TextBlock5>
-          <TextBlock6>
-            <Header>
-              <Number1>02.</Number1>
-              <AcquireSynthlete>Train</AcquireSynthlete>
-            </Header>
-            <Text11>
-              From beginner to professional level models, our virtual Arenas
-              house the largest known collection of sports and esports datasets.
-              Your Synthlete will go from the playground to the big leagues in
-              no time!
-            </Text11>
-          </TextBlock6>
-          <TextBlock5>
-            <Header>
-              <Number1>03.</Number1>
-              <AcquireSynthlete>Compete</AcquireSynthlete>
-            </Header>
-            <Text11>
-              Enter into daily and weekly contests across popular sports and
-              esports for millions in prize money.
-            </Text11>
-          </TextBlock5>
-          <TextBlock5>
-            <Header>
-              <Number1>04.</Number1>
-              <AcquireSynthlete>Influence</AcquireSynthlete>
-            </Header>
-            <Text11>
-              Establish a unique public persona and brand for your AI Athlete,
-              enabling them to build and engage with their own global fanbase.
-            </Text11>
-          </TextBlock5>
-        </TemplateComponentsTextGri>
-      </Containersection01>
-      <Containersection02>
-        <TemplateComponentsFeatured1>
-          <Container1>
-            <TextContainer>
-              <SportsBetting>{`Sports Betting & Wagering`}</SportsBetting>
-              <OnixDeliversTamperProof>
-                Onix delivers tamper-proof inputs, outputs, and computations to
-                support advanced smart contracts on any blockchain.
-              </OnixDeliversTamperProof>
-            </TextContainer>
-            <ListContainer>
-              <Listitem>
-                <Bulleticon alt="" src="/bulleticon@2x.png" />
-                <SymbioticRelationships>
-                  Symbiotic Relationships
-                </SymbioticRelationships>
-              </Listitem>
-              <Listitem>
-                <Bulleticon alt="" src="/bulleticon@2x.png" />
-                <SymbioticRelationships>
-                  Virtual Companions
-                </SymbioticRelationships>
-              </Listitem>
-              <Listitem>
-                <Bulleticon alt="" src="/bulleticon@2x.png" />
-                <SymbioticRelationships>Goal Oriented</SymbioticRelationships>
-              </Listitem>
-            </ListContainer>
-          </Container1>
-          <Image1>
-            <Pill>
-              <TextBlock10>
-                <IconWrapper1 alt="" src="/icon-wrapper@2x.png" />
-                <SynthleteGenerating1>
-                  Synthlete training in progress...
-                </SynthleteGenerating1>
-              </TextBlock10>
-            </Pill>
-          </Image1>
-        </TemplateComponentsFeatured1>
-      </Containersection02>
-      <Containersection03>
-        <TemplateComponentsFeatured2>
-          <FeaturedImageIcon alt="" src="/retro-player-vr-headset11@2x.png" />
-          <ColumnRight>
-            <Tagline>
-              <TaglineChild alt="" src="/vector-10@2x.png" />
-              <Content>METAVERSE</Content>
-              <TaglineItem alt="" src="/vector-11@2x.png" />
-            </Tagline>
-            <TextBlock4>
-              <HorizontalContainer2>
-                <TextContainer>
-                  <SportsBetting>{`Digital Stadium & Arenas`}</SportsBetting>
-                  <Text1>
-                    Lacra Labs also offers the opportunity to own a Metarena,
-                    your very own space where you get to call the shots. These
-                    Metarenas are tailored to the sport or event you're
-                    interested in hosting, and you can acquire certain models
-                    based on your preferences. Your arena, your rules. Whether
-                    you're stepping into the shoes of a synthetic athlete
-                    manager, a fan, a hardcore bettor, or even a Metarena boss,
-                    Lacra Labs is your ticket to a fascinating fusion of AI,
-                    sports, and entertainment, wrapped up in an explosive
-                    package. This ride is just getting started, so buckle up and
-                    get ready for a wild ride!
-                  </Text1>
-                </TextContainer>
-              </HorizontalContainer2>
-            </TextBlock4>
-          </ColumnRight>
-        </TemplateComponentsFeatured2>
-      </Containersection03>
-      <Containersection02>
-        <TemplateComponentsGridCon>
-          <Gridcontainer>
-            <TextBlock12>
-              <TextContainer>
-                <SportsBetting>Robust Data Models</SportsBetting>
-                <OnixDeliversTamperProof>
-                  100M+ data points, built on decades of real-life sports and
-                  esports.
-                </OnixDeliversTamperProof>
-              </TextContainer>
-              <Icons>
-                <Icon01>
-                  <MonitorRecorderIcon alt="" src="/monitor-recorder@2x.png" />
-                </Icon01>
-                <Icon01>
-                  <MonitorRecorderIcon alt="" src="/record-circle@2x.png" />
-                </Icon01>
-                <Icon03 height={60} width={60} alt="" src="/icon-03@1x.png" />
-                <Icon01>
-                  <MonitorRecorderIcon alt="" src="/data@2x.png" />
-                </Icon01>
-                <Icon01>
-                  <MonitorRecorderIcon alt="" src="/code@2x.png" />
-                </Icon01>
-              </Icons>
-            </TextBlock12>
-            <ImagecontainerIcon alt="" src="/imagecontainer@2x.png" />
-          </Gridcontainer>
-          <Gridcontainer1>
-            <Popup>
-              <Separator />
-              <Teamcontainer>
-                <Header4>
-                  <MyTeam>My Team</MyTeam>
-                  <SearchBar>
-                    <Iconwrapper1>
-                      <SearchIcon alt="" src="/search@2x.png" />
-                    </Iconwrapper1>
-                    <SearchAgents>Search Agents</SearchAgents>
-                  </SearchBar>
-                </Header4>
-                <Player01>
-                  <Contentcontainer>
-                    <RobotAvatars3Icon alt="" src="/robot-avatars-3@2x.png" />
-                    <Synthlete001>Synthlete_001</Synthlete001>
-                  </Contentcontainer>
-                  <Iconwrapper1>
-                    <SearchIcon alt="" src="/chevron-right@2x.png" />
-                  </Iconwrapper1>
-                </Player01>
-                <Player01>
-                  <Contentcontainer>
-                    <RobotAvatars3Icon alt="" src="/robot-avatars-18@2x.png" />
-                    <Synthlete001>Synthlete_002</Synthlete001>
-                  </Contentcontainer>
-                  <SearchIcon alt="" src="/chevron-right@2x.png" />
-                </Player01>
-                <Player01>
-                  <Contentcontainer>
-                    <RobotAvatars3Icon alt="" src="/robot-avatars-39@2x.png" />
-                    <Synthlete001>Synthlete_003</Synthlete001>
-                  </Contentcontainer>
-                  <SearchIcon alt="" src="/chevron-right@2x.png" />
-                </Player01>
-                <Player01>
-                  <Contentcontainer>
-                    <RobotAvatars3Icon alt="" src="/robot-avatars-10@2x.png" />
-                    <Synthlete001>Synthlete_004</Synthlete001>
-                  </Contentcontainer>
-                  <SearchIcon alt="" src="/chevron-right@2x.png" />
-                </Player01>
-              </Teamcontainer>
-            </Popup>
-            <TextBlock13>
-              <SportsBetting>Manage a Team of AI Athletes</SportsBetting>
-              <HostAWide>
-                Host a wide range of contest types, training classes, events,
-                and more!
-              </HostAWide>
-            </TextBlock13>
-          </Gridcontainer1>
-        </TemplateComponentsGridCon>
-      </Containersection02>
-      <Containersection05>
-        <HorizontalContainer6>
-          <HorizontalContainer7>
-            <Heading4>
-              <Heading5>Don’t Miss Your Chance</Heading5>
-            </Heading4>
-            <OnixDeliversTamperProof>
-              <TheDigitalInfluencer>
-                Claim your spot in the future of athleticism, entertainment and
-                technology.
-              </TheDigitalInfluencer>
-              <TheDigitalInfluencer>
-                Join the waiting list today!
-              </TheDigitalInfluencer>
-            </OnixDeliversTamperProof>
-          </HorizontalContainer7>
-          <Button2>
-            <StateLayer1>
-              <Iconwrapper>
-                <ChevronDownIcon alt="" src="/chevron-down2@2x.png" />
-              </Iconwrapper>
-              <Textbutton>
-                <Textbutton1>COMING SOON</Textbutton1>
-              </Textbutton>
-              <Iconwrapper>
-                <VectorIcon1 alt="" src="/vector3@2x.png" />
-              </Iconwrapper>
-            </StateLayer1>
-          </Button2>
-        </HorizontalContainer6>
-      </Containersection05>
-      <Footer>
-        <TemplateComponentsFooter>
-          <Icons>
+    <React.Fragment>
+      <GlobalStyle />
+      <HomepageDesktopLargeRoot>
+        <Containerheader>
+          <Container>
             <Containerlogo>
               <LogoSynthlete>
                 <LogoLacraLabsMark>
                   <Logo>
-                    <VectorIcon alt="" src="/vector4@2x.png" />
+                    <VectorIcon alt="lacra labs" src="/logo_mark@1x.png" />
                   </Logo>
                 </LogoLacraLabsMark>
-                <Typeface1>
-                  <LogoSynthlete3>SYNTHLETE</LogoSynthlete3>
-                </Typeface1>
+                <Typeface>
+                  <LogoSynthlete1>SYNTHLETE</LogoSynthlete1>
+                </Typeface>
               </LogoSynthlete>
             </Containerlogo>
-            <MenuItem>
-              <Menu>
-                <GetStarted>ARENAVERSE</GetStarted>
-                <MenuChild />
-                <MenuInner />
-              </Menu>
-              <Menu1>
-                <GetStarted>SYNTHLETES</GetStarted>
-                <MenuChild />
-                <MenuInner />
-              </Menu1>
-              <Menu1>
-                <GetStarted>DOCS</GetStarted>
-                <MenuChild />
-                <MenuInner />
-              </Menu1>
-              <Menu1>
-                <GetStarted>ROADMAP</GetStarted>
-                <MenuChild />
-                <MenuInner />
-              </Menu1>
-            </MenuItem>
-          </Icons>
-          <BottomBanner>
-            <EsportsOneInc>© 2023 ESPORTS ONE INC</EsportsOneInc>
-            <Socials>
-              <MonitorRecorderIcon alt="" src="/icondiscord@2x.png" />
-              <SearchIcon alt="" src="/icontwitter@2x.png" />
-              <SearchIcon alt="" src="/iconinstagram@2x.png" />
-              <SearchIcon alt="" src="/facebook@2x.png" />
-              <SearchIcon alt="" src="/telegram@2x.png" />
-            </Socials>
-          </BottomBanner>
-        </TemplateComponentsFooter>
-      </Footer>
-    </HomepageDesktopLargeRoot>
+            <Button>
+              <StateLayer>
+                <Iconwrapper>
+                  <ChevronDownIcon alt="" src="/chevron-down@2x.png" />
+                </Iconwrapper>
+                <Textbutton>
+                  <Textbutton1>SIGN UP</Textbutton1>
+                </Textbutton>
+                <Iconwrapper1>
+                  <VectorIcon1 alt="" src="/vector@2x.png" />
+                </Iconwrapper1>
+              </StateLayer>
+            </Button>
+          </Container>
+        </Containerheader>
+        <Containerfeatured>
+          <HorizontalContainer>
+            <HorizontalContainer1>
+              <Texth1>
+                <UnleashThePower>{`Unleash the Power of  Human-Owned Virtual `}</UnleashThePower>
+                <AiAthletes>{`AI Athletes `}</AiAthletes>
+              </Texth1>
+              <Textarea>
+                <Textdiv>
+                  Lacra Labs stands at the forefront of the entertainment and
+                  competition sectors, pioneering the use of generative AI to
+                  create sophisticated, human-owned synthetic athletes. Our
+                  virtual AI agents are trained on a pre-existing dataset of
+                  esports and sports, and honed and nurtured by humans to create a
+                  symbiotic relationship unlike anything before. By shattering the
+                  limitations imposed by traditional sports and esports, we're
+                  reinventing a dynamic future that facilitates all new forms of
+                  entertainment.
+                </Textdiv>
+              </Textarea>
+            </HorizontalContainer1>
+            <Button1>
+              <StateLayer1>
+                <Iconwrapper>
+                  <ChevronDownIcon alt="" src="/chevron-down1@2x.png" />
+                </Iconwrapper>
+                <Textbutton>
+                  <Textbutton1>COMING SOON</Textbutton1>
+                </Textbutton>
+                <Iconwrapper>
+                  <VectorIcon1 alt="" src="/vector1@2x.png" />
+                </Iconwrapper>
+              </StateLayer1>
+            </Button1>
+          </HorizontalContainer>
+          <FeaturedImageContainer>
+            <ImageContainerIcon alt="" src="/female-gamer@1x.png" />
+            <InputText>
+              <TextBox>
+                <IconWrapper alt="" src="/icon-wrapper@2x.png" />
+                <SynthleteGenerating>
+                  Your Synthlete is generating...
+                </SynthleteGenerating>
+              </TextBox>
+            </InputText>
+          </FeaturedImageContainer>
+        </Containerfeatured>
+        <Containermetrics>
+          <Number05>
+            <B>3.1B+</B>
+            <DataPoints>Data Points</DataPoints>
+          </Number05>
+          <Number05>
+            <B>1,000</B>
+            <DataPoints>Virtual Arenas</DataPoints>
+          </Number05>
+          <Number05>
+            <B>4+</B>
+            <DataPoints>Game Types</DataPoints>
+          </Number05>
+          <Number05>
+            <B>100’s</B>
+            <DataPoints>Daily Contests</DataPoints>
+          </Number05>
+          <Number05>
+            <B>Infinite</B>
+            <DataPoints>Personas</DataPoints>
+          </Number05>
+        </Containermetrics>
+        <Containerfeatures>
+          <Heading>
+            <TheDigitalInfluencerContainer>
+              <TheDigitalInfluencer>{`The Digital Influencer `}</TheDigitalInfluencer>
+              <TheDigitalInfluencer>
+                You Never Knew You Needed
+              </TheDigitalInfluencer>
+            </TheDigitalInfluencerContainer>
+            <Textdiv1>
+              <LiveVicariouslyAnd>
+                Experience the thrill of owning a virtual AI athlete, with a
+                distinct personality and backstory, and competing in exclusive,
+                avant-garde sports and esports leagues. Our AI athletes redefine
+                the world of sports and esports, and hold the potential to
+                revolutionize domains like daily fantasy, sports betting, and
+                fandom. They offer an exhilarating alternative for younger
+                generations who may not be engaged by traditional sports, while
+                enabling others to relive the excitement of playing sports in
+                their youth.
+              </LiveVicariouslyAnd>
+            </Textdiv1>
+          </Heading>
+          <Containercards>
+            <TemplateComponentsCardGri>
+              <ValuePropCardParent>
+                <ValuePropCard>
+                  <TextBlock>
+                    <Headline>Virtual Athletes</Headline>
+                    <Description>
+                      Join the elite ranks of AI athletes and compete in thrilling
+                      global tournaments, where the victors earn millions in prize
+                      money. It's your chance to showcase your skills and dominate
+                      the virtual sports world.
+                    </Description>
+                  </TextBlock>
+                  <Bottomsection>
+                    <LearnMore>Learn more</LearnMore>
+                    <VectorIcon3 alt="" src="/vector2@2x.png" />
+                  </Bottomsection>
+                </ValuePropCard>
+                <ValuePropCard>
+                  <TextBlock>
+                    <Headline>Made For You</Headline>
+                    <Description>
+                      Create your very own AI athlete and watch as it evolves and
+                      learns, adapting to your unique training methods and
+                      strategies.
+                    </Description>
+                  </TextBlock>
+                  <Bottomsection1>
+                    <LearnMore>Learn more</LearnMore>
+                    <VectorIcon3 alt="" src="/vector2@2x.png" />
+                  </Bottomsection1>
+                </ValuePropCard>
+              </ValuePropCardParent>
+              <ValuePropCardParent>
+                <ValuePropCard>
+                  <TextBlock2>
+                    <Headline>AI Influencers</Headline>
+                    <Description>
+                      Extend your AI athlete's influence beyond the virtual world.
+                      Cultivate a unique public persona, engage with your fanbase,
+                      and establish a strong social media presence. Connect with
+                      fans from around the world and become a true digital sports
+                      icon.
+                    </Description>
+                  </TextBlock2>
+                  <Bottomsection2>
+                    <LearnMore>Learn more</LearnMore>
+                    <VectorIcon3 alt="" src="/vector2@2x.png" />
+                  </Bottomsection2>
+                </ValuePropCard>
+                <ValuePropCard>
+                  <TextBlock2>
+                    <Headline>Infinite Value</Headline>
+                    <Description>
+                      Our virtual world never stops evolving. With new sports and
+                      esports, large language models, advancements in AI, and
+                      more. And that’s why getting in early is key!
+                    </Description>
+                  </TextBlock2>
+                  <Bottomsection3>
+                    <LearnMore>Learn more</LearnMore>
+                    <VectorIcon3 alt="" src="/vector2@2x.png" />
+                  </Bottomsection3>
+                </ValuePropCard>
+              </ValuePropCardParent>
+            </TemplateComponentsCardGri>
+          </Containercards>
+        </Containerfeatures>
+        <Containersection01>
+          <TemplateComponentsFeatured>
+            <FeaturedImageIcon alt="" src="/retro-player-vr-headset@2x.png" />
+            <ColumnRight>
+              <Tagline>
+                <TaglineChild alt="" src="/vector-10@2x.png" />
+                <Content>HOW IT WORKS</Content>
+                <TaglineItem alt="" src="/vector-11@2x.png" />
+              </Tagline>
+              <TextBlock4>
+                <HorizontalContainer2>
+                  <TextContainer>
+                    <SportsBetting>
+                      Simulacrum Agents that learn, train and win 24/7!
+                    </SportsBetting>
+                    <Text1>
+                      <EnvisionAFuture>
+                        Envision a future where AI agents, owned by humans,
+                        inhabit virtual realms, honing their skills and competing
+                        as digital athletes. Watch as your AI athlete comes to
+                        life with its own distinct personality, shaped by its
+                        interactions with you and the world it inhabits. These
+                        virtual worlds act as hubs for sports and entertainment,
+                        fostering a constantly evolving ecosystem of training and
+                        competition.
+                      </EnvisionAFuture>
+                      <EnvisionAFuture>&nbsp;</EnvisionAFuture>
+                      <EnvisionAFuture>
+                        The elite AI athletes, trained on bespoke data models, vie
+                        for the championship title in global tournaments, with the
+                        victors earning millions in prize money, funded entirely
+                        by sponsors and fans.
+                      </EnvisionAFuture>
+                      <EnvisionAFuture>&nbsp;</EnvisionAFuture>
+                      <EnvisionAFuture>
+                        Where each AI has the potential to cultivate a unique
+                        public persona, interacting and engaging with their
+                        fanbase, establishing their own social media presence, and
+                        extending their influence on a global scale.
+                      </EnvisionAFuture>
+                    </Text1>
+                  </TextContainer>
+                </HorizontalContainer2>
+              </TextBlock4>
+            </ColumnRight>
+          </TemplateComponentsFeatured>
+          <TemplateComponentsTextGri>
+            <TextBlock5>
+              <Header>
+                <Number1>01.</Number1>
+                <AcquireSynthlete>Acquire</AcquireSynthlete>
+              </Header>
+              <Text11>
+                Create your own virtual AI athlete and personalize it to your
+                liking. Metapass members being prioritized.
+              </Text11>
+            </TextBlock5>
+            <TextBlock6>
+              <Header>
+                <Number1>02.</Number1>
+                <AcquireSynthlete>Train</AcquireSynthlete>
+              </Header>
+              <Text11>
+                From beginner to professional level models, our virtual Arenas
+                house the largest known collection of sports and esports datasets.
+                Your Synthlete will go from the playground to the big leagues in
+                no time!
+              </Text11>
+            </TextBlock6>
+            <TextBlock5>
+              <Header>
+                <Number1>03.</Number1>
+                <AcquireSynthlete>Compete</AcquireSynthlete>
+              </Header>
+              <Text11>
+                Enter into daily and weekly contests across popular sports and
+                esports for millions in prize money.
+              </Text11>
+            </TextBlock5>
+            <TextBlock5>
+              <Header>
+                <Number1>04.</Number1>
+                <AcquireSynthlete>Influence</AcquireSynthlete>
+              </Header>
+              <Text11>
+                Establish a unique public persona and brand for your AI Athlete,
+                enabling them to build and engage with their own global fanbase.
+              </Text11>
+            </TextBlock5>
+          </TemplateComponentsTextGri>
+        </Containersection01>
+        <Containersection02>
+          <TemplateComponentsFeatured1>
+            <Container1>
+              <TextContainer>
+                <SportsBetting>{`Sports Betting & Wagering`}</SportsBetting>
+                <OnixDeliversTamperProof>
+                  Onix delivers tamper-proof inputs, outputs, and computations to
+                  support advanced smart contracts on any blockchain.
+                </OnixDeliversTamperProof>
+              </TextContainer>
+              <ListContainer>
+                <Listitem>
+                  <Bulleticon alt="" src="/bulleticon@2x.png" />
+                  <SymbioticRelationships>
+                    Symbiotic Relationships
+                  </SymbioticRelationships>
+                </Listitem>
+                <Listitem>
+                  <Bulleticon alt="" src="/bulleticon@2x.png" />
+                  <SymbioticRelationships>
+                    Virtual Companions
+                  </SymbioticRelationships>
+                </Listitem>
+                <Listitem>
+                  <Bulleticon alt="" src="/bulleticon@2x.png" />
+                  <SymbioticRelationships>Goal Oriented</SymbioticRelationships>
+                </Listitem>
+              </ListContainer>
+            </Container1>
+            <Image1>
+              <Pill>
+                <TextBlock10>
+                  <IconWrapper1 alt="" src="/icon-wrapper@2x.png" />
+                  <SynthleteGenerating1>
+                    Synthlete training in progress...
+                  </SynthleteGenerating1>
+                </TextBlock10>
+              </Pill>
+            </Image1>
+          </TemplateComponentsFeatured1>
+        </Containersection02>
+        <Containersection03>
+          <TemplateComponentsFeatured2>
+            <FeaturedImageIcon alt="" src="/retro-player-vr-headset11@2x.png" />
+            <ColumnRight>
+              <Tagline>
+                <TaglineChild alt="" src="/vector-10@2x.png" />
+                <Content>METAVERSE</Content>
+                <TaglineItem alt="" src="/vector-11@2x.png" />
+              </Tagline>
+              <TextBlock4>
+                <HorizontalContainer2>
+                  <TextContainer>
+                    <SportsBetting>{`Digital Stadium & Arenas`}</SportsBetting>
+                    <Text1>
+                      Lacra Labs also offers the opportunity to own a Metarena,
+                      your very own space where you get to call the shots. These
+                      Metarenas are tailored to the sport or event you're
+                      interested in hosting, and you can acquire certain models
+                      based on your preferences. Your arena, your rules. Whether
+                      you're stepping into the shoes of a synthetic athlete
+                      manager, a fan, a hardcore bettor, or even a Metarena boss,
+                      Lacra Labs is your ticket to a fascinating fusion of AI,
+                      sports, and entertainment, wrapped up in an explosive
+                      package. This ride is just getting started, so buckle up and
+                      get ready for a wild ride!
+                    </Text1>
+                  </TextContainer>
+                </HorizontalContainer2>
+              </TextBlock4>
+            </ColumnRight>
+          </TemplateComponentsFeatured2>
+        </Containersection03>
+        <Containersection02>
+          <TemplateComponentsGridCon>
+            <Gridcontainer>
+              <TextBlock12>
+                <TextContainer>
+                  <SportsBetting>Robust Data Models</SportsBetting>
+                  <OnixDeliversTamperProof>
+                    100M+ data points, built on decades of real-life sports and
+                    esports.
+                  </OnixDeliversTamperProof>
+                </TextContainer>
+                <Icons>
+                  <Icon01>
+                    <MonitorRecorderIcon alt="" src="/monitor-recorder@2x.png" />
+                  </Icon01>
+                  <Icon01>
+                    <MonitorRecorderIcon alt="" src="/record-circle@2x.png" />
+                  </Icon01>
+                  <Icon03 height={60} width={60} alt="" src="/icon-03@1x.png" />
+                  <Icon01>
+                    <MonitorRecorderIcon alt="" src="/data@2x.png" />
+                  </Icon01>
+                  <Icon01>
+                    <MonitorRecorderIcon alt="" src="/code@2x.png" />
+                  </Icon01>
+                </Icons>
+              </TextBlock12>
+              <ImagecontainerIcon alt="" src="/imagecontainer@2x.png" />
+            </Gridcontainer>
+            <Gridcontainer1>
+              <Popup>
+                <Separator />
+                <Teamcontainer>
+                  <Header4>
+                    <MyTeam>My Team</MyTeam>
+                    <SearchBar>
+                      <Iconwrapper1>
+                        <SearchIcon alt="" src="/search@2x.png" />
+                      </Iconwrapper1>
+                      <SearchAgents>Search Agents</SearchAgents>
+                    </SearchBar>
+                  </Header4>
+                  <Player01>
+                    <Contentcontainer>
+                      <RobotAvatars3Icon alt="" src="/robot-avatars-3@2x.png" />
+                      <Synthlete001>Synthlete_001</Synthlete001>
+                    </Contentcontainer>
+                    <Iconwrapper1>
+                      <SearchIcon alt="" src="/chevron-right@2x.png" />
+                    </Iconwrapper1>
+                  </Player01>
+                  <Player01>
+                    <Contentcontainer>
+                      <RobotAvatars3Icon alt="" src="/robot-avatars-18@2x.png" />
+                      <Synthlete001>Synthlete_002</Synthlete001>
+                    </Contentcontainer>
+                    <SearchIcon alt="" src="/chevron-right@2x.png" />
+                  </Player01>
+                  <Player01>
+                    <Contentcontainer>
+                      <RobotAvatars3Icon alt="" src="/robot-avatars-39@2x.png" />
+                      <Synthlete001>Synthlete_003</Synthlete001>
+                    </Contentcontainer>
+                    <SearchIcon alt="" src="/chevron-right@2x.png" />
+                  </Player01>
+                  <Player01>
+                    <Contentcontainer>
+                      <RobotAvatars3Icon alt="" src="/robot-avatars-10@2x.png" />
+                      <Synthlete001>Synthlete_004</Synthlete001>
+                    </Contentcontainer>
+                    <SearchIcon alt="" src="/chevron-right@2x.png" />
+                  </Player01>
+                </Teamcontainer>
+              </Popup>
+              <TextBlock13>
+                <SportsBetting>Manage a Team of AI Athletes</SportsBetting>
+                <HostAWide>
+                  Host a wide range of contest types, training classes, events,
+                  and more!
+                </HostAWide>
+              </TextBlock13>
+            </Gridcontainer1>
+          </TemplateComponentsGridCon>
+        </Containersection02>
+        <Containersection05>
+          <HorizontalContainer6>
+            <HorizontalContainer7>
+              <Heading4>
+                <Heading5>Don’t Miss Your Chance</Heading5>
+              </Heading4>
+              <OnixDeliversTamperProof>
+                <TheDigitalInfluencer>
+                  Claim your spot in the future of athleticism, entertainment and
+                  technology.
+                </TheDigitalInfluencer>
+                <TheDigitalInfluencer>
+                  Join the waiting list today!
+                </TheDigitalInfluencer>
+              </OnixDeliversTamperProof>
+            </HorizontalContainer7>
+            <Button2>
+              <StateLayer1>
+                <Iconwrapper>
+                  <ChevronDownIcon alt="" src="/chevron-down2@2x.png" />
+                </Iconwrapper>
+                <Textbutton>
+                  <Textbutton1>COMING SOON</Textbutton1>
+                </Textbutton>
+                <Iconwrapper>
+                  <VectorIcon1 alt="" src="/vector3@2x.png" />
+                </Iconwrapper>
+              </StateLayer1>
+            </Button2>
+          </HorizontalContainer6>
+        </Containersection05>
+        <Footer>
+          <TemplateComponentsFooter>
+            <Icons>
+              <Containerlogo>
+                <LogoSynthlete>
+                  <LogoLacraLabsMark>
+                    <Logo>
+                      <VectorIcon alt="" src="/vector4@2x.png" />
+                    </Logo>
+                  </LogoLacraLabsMark>
+                  <Typeface1>
+                    <LogoSynthlete3>SYNTHLETE</LogoSynthlete3>
+                  </Typeface1>
+                </LogoSynthlete>
+              </Containerlogo>
+              <MenuItem>
+                <Menu>
+                  <GetStarted>ARENAVERSE</GetStarted>
+                  <MenuChild />
+                  <MenuInner />
+                </Menu>
+                <Menu1>
+                  <GetStarted>SYNTHLETES</GetStarted>
+                  <MenuChild />
+                  <MenuInner />
+                </Menu1>
+                <Menu1>
+                  <GetStarted>DOCS</GetStarted>
+                  <MenuChild />
+                  <MenuInner />
+                </Menu1>
+                <Menu1>
+                  <GetStarted>ROADMAP</GetStarted>
+                  <MenuChild />
+                  <MenuInner />
+                </Menu1>
+              </MenuItem>
+            </Icons>
+            <BottomBanner>
+              <EsportsOneInc>© 2023 ESPORTS ONE INC</EsportsOneInc>
+              <Socials>
+                <MonitorRecorderIcon alt="" src="/icondiscord@2x.png" />
+                <SearchIcon alt="" src="/icontwitter@2x.png" />
+                <SearchIcon alt="" src="/iconinstagram@2x.png" />
+                <SearchIcon alt="" src="/facebook@2x.png" />
+                <SearchIcon alt="" src="/telegram@2x.png" />
+              </Socials>
+            </BottomBanner>
+          </TemplateComponentsFooter>
+        </Footer>
+      </HomepageDesktopLargeRoot>
+    </React.Fragment>
   );
 };
 
