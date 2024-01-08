@@ -16,9 +16,10 @@ function MyApp({ Component, pageProps }: AppProps) {
         <meta property="og:image" content="thumbnail.png" />
         <style
           dangerouslySetInnerHTML={{
-            __html: `@import url('https://fonts.googleapis.com/css2?family=Loos+Wide:wght@500;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Aquire:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
+            __html: `@import url('https://fonts.googleapis.com/css2?family=Aquire:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Suisse+Intl:wght@600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Loos+Wide:wght@500;700&display=swap');
 @font-face {
         font-family: "Aquire";
         src: url("/public/Aquire Bold.otf");

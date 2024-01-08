@@ -16,21 +16,29 @@ const VectorIcon = styled.img`
   height: 25px;
   object-fit: cover;
 `;
-const Logo = styled.div`
-  flex-shrink: 0;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  padding: 0px 0.8333333134651184px;
-`;
 const LogoLacraLabsMark = styled.div`
+  flex-shrink: 0;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 `;
-const LogoSynthlete1 = styled.h1`
+const Logomark = styled.div`
+  position: absolute;
+  height: 78.13%;
+  width: 12.01%;
+  top: 12.5%;
+  right: 85.41%;
+  bottom: 9.38%;
+  left: 2.58%;
+  filter: drop-shadow(0px 1px 3px rgba(16, 24, 40, 0.1))
+    drop-shadow(0px 1px 2px rgba(16, 24, 40, 0.06));
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+`;
+const LogoSynthlete = styled.h1`
   margin: 0;
   flex: 1;
   position: relative;
@@ -42,1281 +50,1287 @@ const LogoSynthlete1 = styled.h1`
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 `;
-const Typeface = styled.div`
-  width: 245px;
+const Logotype = styled.div`
+  position: absolute;
+  height: 50%;
+  width: 77.32%;
+  top: 25%;
+  right: 3.61%;
+  bottom: 25%;
+  left: 19.07%;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: flex-start;
 `;
-const LogoSynthlete = styled.div`
-  align-self: stretch;
-  flex: 1;
+const LogoWrap = styled.div`
+  position: relative;
+  width: 194px;
+  height: 32px;
+`;
+const Logo = styled.div`
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+`;
+const PlaceholderIcon = styled.img`
+  position: relative;
+  width: 20px;
+  height: 20px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+  display: none;
+`;
+const Text1 = styled.div`
+  position: relative;
+  line-height: 24px;
+  font-weight: 600;
+`;
+const Buttonsbutton = styled.div`
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+`;
+const ChevronDownIcon = styled.img`
+  position: relative;
+  width: 20px;
+  height: 20px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+`;
+const DropdownHeaderNavigationTri = styled.div`
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+`;
+const Navigation1 = styled.div`
+  flex-shrink: 0;
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 32px;
+  text-align: left;
+  font-size: 16px;
+  font-family: Inter;
+`;
+const Content = styled.div`
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 40px;
+`;
+const TextPadding = styled.div`
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 2px;
+`;
+const Buttonsbutton4 = styled.div`
+  border-radius: 8px;
+  overflow: hidden;
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 16px;
+  gap: 6px;
+`;
+const Buttonsbutton5 = styled.div`
+  border-radius: 8px;
+  background-color: #7e56d9;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  border: 1px solid #7e56d9;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 16px;
+  gap: 6px;
+  color: #fff;
+`;
+const NavigationActions = styled.div`
+  flex-shrink: 0;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: flex-start;
   gap: 12px;
-`;
-const Containerlogo = styled.div`
-  align-self: stretch;
-  flex-shrink: 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
-`;
-const ChevronDownIcon = styled.img`
-  position: relative;
-  width: 16px;
-  height: 16px;
-  flex-shrink: 0;
-  object-fit: cover;
-`;
-const Iconwrapper = styled.div`
-  background-color: rgba(255, 255, 255, 0);
-  overflow: hidden;
-  display: none;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-`;
-const Textbutton1 = styled.b`
-  position: relative;
-  letter-spacing: 0.03em;
-  line-height: 22px;
-`;
-const Textbutton = styled.div`
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  padding: 0px 6px;
-`;
-const VectorIcon1 = styled.img`
-  position: relative;
-  width: 16px;
-  height: 16px;
-  overflow: hidden;
-  flex-shrink: 0;
-  object-fit: cover;
-`;
-const Iconwrapper1 = styled.div`
-  background-color: rgba(255, 255, 255, 0);
-  overflow: hidden;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-`;
-const StateLayer = styled.div`
-  border-radius: 4px;
-  height: 36px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  padding: 0px 12px;
-  box-sizing: border-box;
-`;
-const Button = styled.div`
-  border-radius: 4px;
-  background-color: #ac6aff;
-  flex-shrink: 0;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
+  text-align: left;
   font-size: 16px;
-  font-family: "Loos Wide";
+  color: #cecfd2;
+  font-family: Inter;
 `;
 const Container = styled.div`
-  align-self: stretch;
-  box-shadow: 0px 1px 2px rgba(78, 81, 83, 0.1);
+  width: 100%;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+  padding: 0px 32px;
+  box-sizing: border-box;
+  max-width: 1280px;
 `;
-const Containerheader = styled.header`
-  align-self: stretch;
-  background-color: #1c1c1c;
+const Header = styled.div`
+  position: absolute;
+  width: 100%;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  height: 80px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
+`;
+const DropdownHeaderNavigation = styled.div`
+  align-self: stretch;
+  position: relative;
+  background-color: #161b26;
+  height: 80px;
+  z-index: 1;
+`;
+const Message = styled.div`
+  position: relative;
+  line-height: 20px;
+  font-weight: 500;
+`;
+const Badge = styled.div`
+  border-radius: 1000px;
+  border: 1.5px solid #b692f6;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
   justify-content: flex-start;
-  padding: 16px 80px;
-  text-align: center;
-  font-size: 40px;
-  color: #17151f;
-  font-family: Aquire;
+  padding: 2px 10px;
+  mix-blend-mode: normal;
+`;
+const ArrowRightIcon = styled.img`
+  position: relative;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+`;
+const Content2 = styled.div`
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 4px;
+  text-align: left;
+`;
+const BadgeGroup = styled.div`
+  border-radius: 1000px;
+  background-color: #0c111d;
+  border: 1.5px solid #b692f6;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 4px 10px 4px 4px;
+  gap: 12px;
 `;
 const UnleashThePower = styled.span``;
 const AiAthletes = styled.span`
   color: #ac6aff;
 `;
-const Texth1 = styled.h1`
-  margin: 0;
+const Heading = styled.b`
   align-self: stretch;
   position: relative;
-  font-size: inherit;
-  line-height: 64px;
-  font-weight: 700;
-  font-family: inherit;
-  white-space: pre-wrap;
-  @media screen and (max-width: 1200px) {
-    font-size: 48px;
-    line-height: 56px;
-  }
+  font-size: 60px;
+  letter-spacing: -0.02em;
+  line-height: 72px;
+  font-family: "Suisse Intl";
+  color: #ededed;
 `;
-const Textdiv = styled.div`
+const HeadingAndBadge = styled.div`
   align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 16px;
+`;
+const SupportingText = styled.div`
+  width: 100%;
   position: relative;
-  letter-spacing: 0.01em;
+  font-size: 20px;
   line-height: 30px;
   font-weight: 500;
+  color: #f5f5f6;
+  display: inline-block;
+  max-width: 768px;
 `;
-const Textarea = styled.div`
-  align-self: stretch;
+const HeadingAndSupportingText = styled.div`
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  font-size: 20px;
-  color: #a0a0a0;
-  font-family: Montserrat;
-`;
-const HorizontalContainer1 = styled.div`
-  align-self: stretch;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
-  gap: 48px;
-`;
-const StateLayer1 = styled.div`
-  border-radius: 4px;
-  border: 1px solid #a0a0a0;
-  box-sizing: border-box;
-  height: 36px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  padding: 0px 12px;
-`;
-const Button1 = styled.div`
-  border-radius: 4px;
-  background-color: #232323;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  font-size: 16px;
-  color: #ac6aff;
-`;
-const HorizontalContainer = styled.div`
-  align-self: stretch;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding: 0px 80px;
-  gap: 48px;
-`;
-const ImageContainerIcon = styled.img`
-  align-self: stretch;
-  max-width: 100%;
-  overflow: hidden;
-  height: 850px;
-  flex-shrink: 0;
-  object-fit: cover;
-`;
-const IconWrapper = styled.img`
-  width: 33.9px;
-  height: 33.9px;
-  overflow: hidden;
-  flex-shrink: 0;
-  object-fit: contain;
-`;
-const SynthleteGenerating = styled.b`
-  position: relative;
-  letter-spacing: 0.03em;
-  line-height: 24px;
-`;
-const TextBox = styled.div`
-  flex-shrink: 0;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: flex-start;
-  gap: 8px;
-`;
-const InputText = styled.div`
-  border-radius: 500px;
-  background-color: #1c1c1c;
-  border: 2px solid #ac6aff;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: flex-start;
-  padding: 8px 12px;
-`;
-const FeaturedImageContainer = styled.div`
-  align-self: stretch;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
-  background-image: url("/featured-image-container@3x.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: top;
-  text-align: left;
-  font-size: 18px;
-`;
-const Containerfeatured = styled.section`
-  align-self: stretch;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
-  padding: 40px 80px;
-  gap: 40px;
-  text-align: center;
-  font-size: 56px;
-  color: #ededed;
-  font-family: "Loos Wide";
-  @media screen and (max-width: 1200px) {
-    padding-left: 80px;
-    padding-right: 80px;
-    box-sizing: border-box;
-  }
-`;
-const B = styled.b`
-  position: relative;
-  line-height: 40px;
-`;
-const DataPoints = styled.b`
-  position: relative;
-  font-size: 18px;
-  letter-spacing: 0.01em;
-  line-height: 28px;
-  font-family: Montserrat;
-  color: #a0a0a0;
-`;
-const Number05 = styled.div`
-  align-self: stretch;
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding: 0px 16px;
-  box-sizing: border-box;
-  min-height: 64px;
-`;
-const Containermetrics = styled.div`
-  align-self: stretch;
-  background-color: #232323;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: flex-start;
-  padding: 24px 80px;
-  gap: 64px;
-  font-size: 32px;
-  @media screen and (max-width: 1200px) {
-    padding-left: 80px;
-    padding-right: 80px;
-    box-sizing: border-box;
-  }
-`;
-const TheDigitalInfluencer = styled.p`
-  margin: 0;
-`;
-const TheDigitalInfluencerContainer = styled.b`
-  align-self: stretch;
-  position: relative;
-  line-height: 56px;
-  @media screen and (max-width: 1200px) {
-    font-size: 48px;
-    line-height: 56px;
-  }
-`;
-const LiveVicariouslyAnd = styled.div`
-  align-self: stretch;
-  position: relative;
-  letter-spacing: 0.01em;
-  line-height: 28px;
-  font-weight: 500;
-`;
-const Textdiv1 = styled.div`
-  align-self: stretch;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
-  font-size: 18px;
-  color: #a0a0a0;
-  font-family: Montserrat;
-`;
-const Heading = styled.div`
-  align-self: stretch;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
-  padding: 0px 80px;
   gap: 24px;
+  max-width: 1024px;
 `;
-const Headline = styled.b`
-  align-self: stretch;
+const PlayCircleIcon = styled.img`
   position: relative;
-  line-height: 40px;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
 `;
-const Description = styled.div`
-  align-self: stretch;
+const Text7 = styled.div`
   position: relative;
-  font-size: 16px;
-  letter-spacing: 0.01em;
-  line-height: 24px;
-  font-weight: 500;
-  font-family: Montserrat;
-  color: #a0a0a0;
-`;
-const TextBlock = styled.div`
-  align-self: stretch;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
-  gap: 16px;
-`;
-const LearnMore = styled.b`
-  position: relative;
-  letter-spacing: 0.01em;
   line-height: 28px;
+  font-weight: 600;
 `;
-const VectorIcon3 = styled.img`
+const PlaceholderIcon10 = styled.img`
   position: relative;
-  border-radius: 14px;
-  width: 26px;
-  height: 10.2px;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
   object-fit: cover;
+  display: none;
 `;
-const Bottomsection = styled.div`
-  align-self: stretch;
-  overflow: hidden;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-  padding: 0px 24px;
-  text-align: left;
-  font-size: 18px;
-  color: #52a9ff;
-  font-family: Montserrat;
-`;
-const ValuePropCard = styled.div`
-  align-self: stretch;
-  flex: 1;
-  background-color: #232323;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
-  padding: 24px;
-`;
-const Bottomsection1 = styled.div`
-  align-self: stretch;
-  overflow: hidden;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-  padding: 0px 24px;
-  text-align: left;
-  font-size: 18px;
-  color: #f1a10d;
-  font-family: Montserrat;
-`;
-const ValuePropCardParent = styled.div`
-  align-self: stretch;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: center;
-  gap: 80px;
-`;
-const TextBlock2 = styled.div`
-  align-self: stretch;
-  overflow: hidden;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
-  gap: 16px;
-`;
-const Bottomsection2 = styled.div`
-  align-self: stretch;
-  overflow: hidden;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-  padding: 0px 24px;
-  text-align: left;
-  font-size: 18px;
-  color: #e45be5;
-  font-family: Montserrat;
-`;
-const Bottomsection3 = styled.div`
-  align-self: stretch;
-  overflow: hidden;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-  padding: 0px 24px;
-  text-align: left;
-  font-size: 18px;
-  color: #00face;
-  font-family: Montserrat;
-`;
-const TemplateComponentsCardGri = styled.div`
-  align-self: stretch;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
-  gap: 40px;
-  @media screen and (max-width: 1200px) {
-    flex-direction: column;
-  }
-  @media screen and (max-width: 960px) {
-    flex-direction: column;
-  }
-  @media screen and (max-width: 420px) {
-    flex-direction: column;
-  }
-`;
-const Containercards = styled.div`
-  align-self: stretch;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
-  padding: 0px 80px;
-  font-size: 32px;
-  color: #ededed;
-`;
-const Containerfeatures = styled.div`
-  align-self: stretch;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
-  padding: 40px 80px;
-  gap: 40px;
-  text-align: center;
-  color: #ac6aff;
-`;
-const FeaturedImageIcon = styled.img`
-  flex: 1;
-  max-width: 100%;
-  overflow: hidden;
-  max-height: 100%;
-  object-fit: cover;
-  @media screen and (max-width: 960px) {
-    flex: unset;
-    align-self: stretch;
-  }
-  @media screen and (max-width: 420px) {
-    flex: unset;
-    align-self: stretch;
-  }
-`;
-const TaglineChild = styled.img`
-  position: relative;
-  width: 4px;
-  height: 12px;
-  object-fit: cover;
-`;
-const Content = styled.div`
-  position: relative;
-  letter-spacing: 0.03em;
-  line-height: 18px;
-  font-weight: 500;
-`;
-const TaglineItem = styled.img`
-  position: relative;
-  width: 4px;
-  height: 12px;
-  object-fit: contain;
-`;
-const Tagline = styled.div`
+const Buttonsbutton6 = styled.div`
   border-radius: 8px;
+  background-color: #161b26;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  border: 1px solid #333741;
+  overflow: hidden;
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 16px 22px;
+  gap: 10px;
+`;
+const Buttonsbutton7 = styled.div`
+  border-radius: 8px;
+  background-color: #7e56d9;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  border: 1px solid #7e56d9;
+  overflow: hidden;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  padding: 16px 22px;
+  gap: 10px;
+  color: #fff;
+`;
+const Actions = styled.div`
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
   gap: 12px;
-`;
-const SportsBetting = styled.b`
-  align-self: stretch;
-  position: relative;
-  line-height: 56px;
-  @media screen and (max-width: 1200px) {
-    font-size: 40px;
-    line-height: 48px;
-  }
-`;
-const EnvisionAFuture = styled.span`
-  display: block;
-`;
-const Text1 = styled.p`
-  margin: 0;
-  align-self: stretch;
-  position: relative;
+  text-align: left;
   font-size: 18px;
-  letter-spacing: 0.01em;
-  line-height: 28px;
-  font-weight: 500;
-  font-family: Montserrat;
-  color: #a0a0a0;
+  color: #cecfd2;
 `;
-const TextContainer = styled.div`
-  align-self: stretch;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-  gap: 24px;
-`;
-const HorizontalContainer2 = styled.div`
+const Content1 = styled.div`
   align-self: stretch;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-`;
-const TextBlock4 = styled.div`
-  align-self: stretch;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
   justify-content: flex-start;
-  font-size: 48px;
-  color: #ededed;
+  gap: 48px;
 `;
-const ColumnRight = styled.div`
-  flex: 1;
+const Container1 = styled.div`
+  width: 100%;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  justify-content: center;
-  gap: 24px;
-  @media screen and (max-width: 960px) {
-    flex: unset;
-    align-self: stretch;
-  }
-  @media screen and (max-width: 420px) {
-    flex: unset;
-    align-self: stretch;
-  }
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0px 32px;
+  box-sizing: border-box;
+  max-width: 1280px;
 `;
-const TemplateComponentsFeatured = styled.div`
+const BackgroundPatternIcon = styled.img`
+  position: relative;
+  width: 1440px;
+  height: 64px;
+  object-fit: cover;
+`;
+const Section = styled.div`
+  align-self: stretch;
+  background-color: #161b26;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 96px 0px 0px;
+`;
+const ShadowOverlayPlayer = styled.div`
+  position: absolute;
+  width: 100%;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
+  height: 116px;
+`;
+const Overlay = styled.div`
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background-color: rgba(0, 0, 0, 0.1);
+`;
+const Background = styled.div`
+  position: absolute;
+  width: calc(100% - 28px);
+  top: 4px;
+  right: 0px;
+  left: 28px;
+  border-radius: 4px;
+  background-color: #fff;
+  height: 8px;
+  opacity: 0.3;
+`;
+const BufferingProgress = styled.div`
+  position: absolute;
+  width: 16%;
+  top: 0px;
+  right: 84%;
+  left: 0%;
+  border-radius: 4px;
+  background-color: #fff;
+  height: 8px;
+  opacity: 0.5;
+`;
+const Buffering = styled.div`
+  position: absolute;
+  width: calc(100% - 28px);
+  top: 4px;
+  right: 0px;
+  left: 28px;
+  height: 8px;
+`;
+const ProgressLine = styled.div`
+  position: absolute;
+  top: 4px;
+  left: 28px;
+  border-radius: 4px;
+  background-color: #fff;
+  width: 8px;
+  height: 8px;
+`;
+const PlayIcon = styled.img`
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 16px;
+  height: 16px;
+  object-fit: cover;
+`;
+const Content4 = styled.div`
+  align-self: stretch;
+  position: relative;
+  height: 20px;
+`;
+const TimestampStart = styled.div`
+  position: relative;
+  line-height: 18px;
+  font-weight: 600;
+`;
+const Timestamps = styled.div`
   align-self: stretch;
   display: flex;
   flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  padding: 80px 0px;
-  gap: 48px;
-  @media screen and (max-width: 960px) {
-    width: 768px;
-    flex-direction: column;
-    padding-top: 68px;
-    padding-bottom: 68px;
-    box-sizing: border-box;
-  }
-  @media screen and (max-width: 420px) {
-    width: 360px;
-    flex-direction: column;
-    padding-top: 64px;
-    padding-bottom: 64px;
-    box-sizing: border-box;
-  }
+  align-items: flex-start;
+  justify-content: space-between;
 `;
-const Number1 = styled.b`
-  align-self: stretch;
-  position: relative;
-  letter-spacing: 0.03em;
-  line-height: 18px;
+const VideoProgress = styled.div`
+  position: absolute;
+  width: calc(100% - 32px);
+  right: 20px;
+  bottom: 8px;
+  left: 12px;
+  border-radius: 8px;
+  display: none;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
 `;
-const AcquireSynthlete = styled.h5`
-  margin: 0;
-  align-self: stretch;
-  position: relative;
-  font-size: 32px;
-  line-height: 40px;
-  font-weight: 700;
-  font-family: inherit;
-  color: #ededed;
-  @media screen and (max-width: 1200px) {
-    font-size: 24px;
-    line-height: 32px;
-  }
-`;
-const Header = styled.div`
-  align-self: stretch;
+const Badge1 = styled.div`
+  border-radius: 1000px;
+  background-color: rgba(255, 255, 255, 0.3);
+  border: 1px solid #fff;
+  flex-shrink: 0;
   display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 2px 10px;
+`;
+const Text10 = styled.div`
+  position: relative;
+  font-size: 36px;
+  letter-spacing: -0.02em;
+  line-height: 44px;
+  font-weight: 600;
+  font-family: "Suisse Intl";
+  text-align: left;
+`;
+const TextAndBadge = styled.div`
+  position: absolute;
+  top: calc(50% - 44px);
+  left: 32px;
+  display: none;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
   gap: 4px;
+  text-align: center;
+  font-size: 14px;
+`;
+const PlayButtonIcon = styled.img`
+  position: absolute;
+  top: calc(50% - 40px);
+  left: calc(50% - 40px);
+  border-radius: 1000px;
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  display: none;
+`;
+const VideoPlayer = styled.div`
+  position: relative;
+  border-radius: 8px;
+  width: 916px;
+  height: 516px;
+  overflow: hidden;
+  flex-shrink: 0;
+  background-image: url("/video-player@3x.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+`;
+const Content3 = styled.div`
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+`;
+const Container2 = styled.div`
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px 32px;
+  box-sizing: border-box;
+  max-width: 1280px;
+`;
+const Section1 = styled.div`
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0px 0px 96px;
+  text-align: left;
+  font-size: 12px;
+  color: #fff;
+`;
+const HeaderSection = styled.div`
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  z-index: 0;
+  font-size: 14px;
+  color: #d6bbfb;
+  font-family: Inter;
+`;
+const HeroHeaderSection = styled.div`
+  background-color: #0c111d;
+  width: 1440px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: 24.5px;
+  font-family: Aquire;
+`;
+const Heading1 = styled.div`
+  align-self: stretch;
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 44px;
+  font-weight: 600;
+`;
+const SupportingText1 = styled.div`
+  align-self: stretch;
+  position: relative;
+  font-size: 20px;
+  line-height: 30px;
+  font-family: Inter;
+  color: #94969c;
+`;
+const HeadingAndSupportingText1 = styled.div`
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 20px;
+  max-width: 768px;
+`;
+const Number1 = styled.div`
+  align-self: stretch;
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 72px;
+  font-weight: 600;
 `;
 const Text11 = styled.div`
   align-self: stretch;
   position: relative;
-  font-size: 16px;
-  letter-spacing: 0.01em;
-  line-height: 24px;
-  font-weight: 500;
-  font-family: Montserrat;
-`;
-const TextBlock5 = styled.div`
-  flex: 1;
-  border-top: 2px solid #a0a0a0;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-  padding: 24px 0px;
-  gap: 24px;
-  @media screen and (max-width: 960px) {
-    flex: unset;
-    align-self: stretch;
-  }
-  @media screen and (max-width: 420px) {
-    flex: unset;
-    align-self: stretch;
-  }
-`;
-const TextBlock6 = styled.div`
-  flex: 1;
-  border-top: 2px solid #ac6aff;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-  padding: 24px 0px;
-  gap: 24px;
-  @media screen and (max-width: 960px) {
-    flex: unset;
-    align-self: stretch;
-  }
-  @media screen and (max-width: 420px) {
-    flex: unset;
-    align-self: stretch;
-  }
-`;
-const TemplateComponentsTextGri = styled.nav`
-  margin: 0;
-  align-self: stretch;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: center;
-  gap: 24px;
-  text-align: left;
-  font-size: 12px;
-  color: #a0a0a0;
-  font-family: "Loos Wide";
-  @media screen and (max-width: 960px) {
-    flex-direction: column;
-  }
-  @media screen and (max-width: 420px) {
-    flex-direction: column;
-  }
-`;
-const Containersection01 = styled.section`
-  align-self: stretch;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
-  padding: 40px 80px;
-  gap: 40px;
-  text-align: left;
-  font-size: 12px;
-  color: #a0a0a0;
-  font-family: "Loos Wide";
-  @media screen and (max-width: 1200px) {
-    padding-left: 80px;
-    padding-right: 80px;
-    box-sizing: border-box;
-  }
-`;
-const OnixDeliversTamperProof = styled.div`
-  align-self: stretch;
-  position: relative;
   font-size: 18px;
-  letter-spacing: 0.01em;
   line-height: 28px;
-  font-weight: 500;
-  font-family: Montserrat;
-  color: #a0a0a0;
+  font-weight: 600;
+  font-family: Inter;
 `;
-const Bulleticon = styled.img`
-  position: relative;
-  width: 32px;
-  height: 32px;
-  object-fit: cover;
-`;
-const SymbioticRelationships = styled.b`
-  position: relative;
-  letter-spacing: 0.01em;
-  line-height: 30px;
-`;
-const Listitem = styled.div`
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: flex-start;
-  gap: 16px;
-`;
-const ListContainer = styled.div`
+const NumberAndText = styled.div`
   align-self: stretch;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  gap: 24px;
-  font-size: 20px;
-  font-family: Montserrat;
-`;
-const Container1 = styled.div`
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-  gap: 48px;
-  @media screen and (max-width: 960px) {
-    flex: unset;
-    align-self: stretch;
-  }
-  @media screen and (max-width: 420px) {
-    flex: unset;
-    align-self: stretch;
-  }
-`;
-const IconWrapper1 = styled.img`
-  width: 33.9px;
-  height: 33.9px;
-  flex-shrink: 0;
-  object-fit: contain;
-`;
-const SynthleteGenerating1 = styled.b`
-  flex: 1;
-  position: relative;
-  letter-spacing: 0.03em;
-  line-height: 24px;
-`;
-const TextBlock10 = styled.div`
-  align-self: stretch;
-  flex-shrink: 0;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  gap: 16px;
-`;
-const Pill = styled.div`
-  border-radius: 8px;
-  background-color: #1c1c1c;
-  border: 2px solid #ac6aff;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding: 12px 16px;
-`;
-const Image1 = styled.div`
-  align-self: stretch;
-  flex: 1;
-  border-radius: 16px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-end;
-  background-image: url("/image@3x.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: top;
-  font-size: 18px;
-  @media screen and (max-width: 960px) {
-    flex: unset;
-    align-self: stretch;
-  }
-  @media screen and (max-width: 420px) {
-    flex: unset;
-    align-self: stretch;
-  }
-`;
-const TemplateComponentsFeatured1 = styled.div`
-  align-self: stretch;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: flex-start;
-  padding: 80px 0px;
-  gap: 48px;
-  @media screen and (max-width: 1200px) {
-    padding-left: 80px;
-    padding-right: 80px;
-    box-sizing: border-box;
-  }
-  @media screen and (max-width: 960px) {
-    flex-direction: column;
-  }
-  @media screen and (max-width: 420px) {
-    flex-direction: column;
-  }
-`;
-const Containersection02 = styled.div`
-  align-self: stretch;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
-  padding: 40px 80px;
-`;
-const TemplateComponentsFeatured2 = styled.div`
-  align-self: stretch;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  padding: 80px 0px;
-  gap: 50px;
-  @media screen and (max-width: 960px) {
-    flex-direction: column;
-  }
-  @media screen and (max-width: 420px) {
-    flex-direction: column;
-  }
-`;
-const Containersection03 = styled.div`
-  align-self: stretch;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
-  padding: 40px 80px;
-  font-size: 12px;
-  color: #a0a0a0;
-`;
-const MonitorRecorderIcon = styled.img`
-  position: relative;
-  width: 24px;
-  height: 24px;
-  object-fit: cover;
-`;
-const Icon01 = styled.div`
-  border-radius: 16px;
-  background-color: #1c1c1c;
-  flex-shrink: 0;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  padding: 16px;
-`;
-const Icon03 = styled.img`
-  border-radius: 16px;
-  max-width: 100%;
-  overflow: hidden;
-  max-height: 100%;
-  object-fit: cover;
-`;
-const Icons = styled.div`
-  align-self: stretch;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-`;
-const TextBlock12 = styled.div`
-  align-self: stretch;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-  padding: 48px;
-  gap: 36px;
-`;
-const ImagecontainerIcon = styled.img`
-  align-self: stretch;
-  flex: 1;
-  border-radius: 16px;
-  max-width: 100%;
-  overflow: hidden;
-  max-height: 100%;
-  object-fit: cover;
-`;
-const Gridcontainer = styled.div`
-  align-self: stretch;
-  flex: 1;
-  border-radius: 24px;
-  overflow: hidden;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
-  @media screen and (max-width: 420px) {
-    flex: unset;
-    align-self: stretch;
-  }
-`;
-const Separator = styled.div`
-  position: relative;
-  border-radius: 4px;
-  background-color: rgba(255, 255, 255, 0.65);
-  width: 63px;
-  height: 4px;
-`;
-const MyTeam = styled.b`
-  align-self: stretch;
-  position: relative;
-  line-height: 32px;
-`;
-const SearchIcon = styled.img`
-  position: relative;
-  width: 24px;
-  height: 24px;
-  overflow: hidden;
-  flex-shrink: 0;
-  object-fit: cover;
-`;
-const SearchAgents = styled.div`
-  flex: 1;
-  position: relative;
-  letter-spacing: 0.01em;
-  line-height: 24px;
-  font-weight: 500;
-`;
-const SearchBar = styled.div`
-  align-self: stretch;
-  border-radius: 8px;
-  background-color: #1c1c1c;
-  overflow: hidden;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: flex-start;
-  padding: 12px 8px;
-  gap: 8px;
-  font-size: 16px;
-  color: #a0a0a0;
-`;
-const Header4 = styled.div`
-  align-self: stretch;
-  border-radius: 8px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-  padding: 0px 16px 16px;
   gap: 12px;
-  font-size: 24px;
 `;
-const RobotAvatars3Icon = styled.img`
-  position: relative;
-  width: 32px;
-  height: 32px;
+const Buttonsbutton8 = styled.div`
   overflow: hidden;
-  flex-shrink: 0;
-  object-fit: cover;
-`;
-const Synthlete001 = styled.b`
-  position: relative;
-  letter-spacing: 0.01em;
-  line-height: 24px;
-`;
-const Contentcontainer = styled.div`
-  flex: 1;
-  flex-shrink: 0;
-  display: flex;
+  display: none;
   flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  text-align: left;
+  font-size: 16px;
+  color: #cecfd2;
+  font-family: Inter;
+`;
+const MetricItem = styled.div`
+  flex: 1;
+  display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: flex-start;
   gap: 20px;
+  min-width: 240px;
 `;
-const Player01 = styled.div`
+const Content6 = styled.div`
   align-self: stretch;
-  background-color: #1c1c1c;
-  border-top: 1px solid #ededed;
+  border-radius: 16px;
+  background-color: #161b26;
   display: flex;
   flex-direction: row;
-  align-items: center;
-  justify-content: flex-start;
-  padding: 16px 24px;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 64px;
+  gap: 32px;
 `;
-const Teamcontainer = styled.div`
+const Container4 = styled.div`
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px 32px;
+  box-sizing: border-box;
+  max-width: 1280px;
+  font-size: 60px;
+`;
+const MetricsSection = styled.div`
+  background-color: #0c111d;
+  width: 1440px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 96px 0px;
+  box-sizing: border-box;
+  gap: 64px;
+`;
+const FeaturedIcon = styled.img`
+  position: relative;
+  border-radius: 1000px;
+  width: 56px;
+  height: 56px;
+  object-fit: cover;
+`;
+const HeadingAndIcon = styled.div`
   align-self: stretch;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
+  gap: 20px;
 `;
-const Popup = styled.div`
-  width: 100%;
-  flex: 1;
-  border-radius: 16px;
-  background-color: #1c1c1c;
-  backdrop-filter: blur(8px);
-  overflow: hidden;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
-  padding: 20px 0px;
-  box-sizing: border-box;
-  gap: 32px;
-  min-width: 325px;
-  max-width: 375px;
-`;
-const HostAWide = styled.div`
+const SupportingText2 = styled.div`
   align-self: stretch;
   position: relative;
   font-size: 18px;
-  letter-spacing: 0.01em;
   line-height: 28px;
   font-weight: 500;
-  font-family: Montserrat;
-  color: #a0a0a0;
-  text-align: center;
+  font-family: Inter;
 `;
-const TextBlock13 = styled.div`
+const HeadingAndSupportingText2 = styled.div`
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 20px;
+  max-width: 360px;
+`;
+const FeaturedIcon1 = styled.img`
+  position: relative;
+  border-radius: 10px;
+  width: 48px;
+  height: 48px;
+  object-fit: cover;
+`;
+const Text17 = styled.div`
   align-self: stretch;
+  position: relative;
+  line-height: 30px;
+  font-weight: 600;
+`;
+const SupportingText3 = styled.div`
+  align-self: stretch;
+  position: relative;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  color: #94969c;
+`;
+const TextAndSupportingText = styled.div`
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 8px;
+`;
+const Buttonsbutton11 = styled.div`
+  overflow: hidden;
+  display: none;
+`;
+const FeatureText = styled.div`
+  flex: 1;
+  background-color: #161b26;
+  height: 314px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 24px;
+  box-sizing: border-box;
+  gap: 24px;
+  min-width: 280px;
+`;
+const Buttonsbutton13 = styled.div`
+  overflow: hidden;
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  font-size: 16px;
+  color: #cecfd2;
+`;
+const Content7 = styled.div`
+  flex: 1;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 32px;
+  font-size: 20px;
+  font-family: Inter;
+`;
+const Container5 = styled.div`
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px 32px;
+  box-sizing: border-box;
+  gap: 64px;
+  max-width: 1280px;
+`;
+const FeaturesSection = styled.div`
+  background-color: #0c111d;
+  width: 1440px;
+  overflow: hidden;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  padding: 48px;
-  gap: 24px;
-  font-size: 48px;
+  padding: 96px 0px;
+  box-sizing: border-box;
+  text-align: left;
+`;
+const Subheading = styled.div`
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 0.03em;
+  line-height: 18px;
+  font-weight: 500;
+`;
+const Heading3 = styled.div`
+  align-self: stretch;
+  position: relative;
+  font-size: 36px;
+  letter-spacing: -0.02em;
+  line-height: 44px;
+  font-weight: 600;
+  font-family: "Suisse Intl";
+  color: #f5f5f6;
+`;
+const EnvisionAFuture = styled.p`
+  margin-block-start: 0;
+  margin-block-end: 20px;
+`;
+const WhereEachAi = styled.p`
+  margin: 0;
+`;
+const SupportingText7 = styled.div`
+  align-self: stretch;
+  position: relative;
+  font-size: 20px;
+  line-height: 30px;
+  font-family: Inter;
+`;
+const HeadingAndSupportingText3 = styled.div`
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 20px;
+  max-width: 768px;
+`;
+const Content12 = styled.div`
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+`;
+const SupportingText8 = styled.div`
+  align-self: stretch;
+  position: relative;
+  font-size: 16px;
+  line-height: 24px;
+  color: #cecfd2;
+`;
+const FeatureText4 = styled.div`
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 20px;
+  min-width: 240px;
+`;
+const Content13 = styled.div`
+  flex: 1;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 32px;
+`;
+const ShadowIcon = styled.img`
+  position: absolute;
+  height: 1.09%;
+  width: 101.69%;
+  top: 98.68%;
+  right: -0.03%;
+  bottom: 0.22%;
+  left: -1.67%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+`;
+const MacbookPro16 = styled.img`
+  position: absolute;
+  height: 99.42%;
+  width: 98.14%;
+  top: 0%;
+  right: 0.92%;
+  bottom: 0.58%;
+  left: 0.94%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+`;
+const CameraIcon = styled.img`
+  position: absolute;
+  height: 0.8%;
+  width: 0.47%;
+  top: 1.67%;
+  right: 49.43%;
+  bottom: 97.53%;
+  left: 50.1%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+`;
+const LogoIcon = styled.img`
+  position: absolute;
+  height: 1.27%;
+  width: 5.51%;
+  top: 91.73%;
+  right: 46.91%;
+  bottom: 7%;
+  left: 47.58%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+`;
+const ScreenMockupReplaceFill = styled.img`
+  position: absolute;
+  height: 86.47%;
+  width: 80.92%;
+  top: 3.1%;
+  right: 9.13%;
+  bottom: 10.43%;
+  left: 9.95%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+`;
+const MacbookProMockup = styled.div`
+  position: absolute;
+  top: 56px;
+  left: 40px;
+  width: 768px;
+  height: 448.5px;
+  overflow: hidden;
+`;
+const MockupWrap = styled.div`
+  position: absolute;
+  height: 100%;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  border-radius: 24px;
+  width: 768px;
+  overflow: hidden;
+`;
+const HandDrawnArrowIcon = styled.img`
+  position: absolute;
+  top: -140.6px;
+  left: 112.9px;
+  width: 282.6px;
+  height: 243.9px;
+  object-fit: contain;
+`;
+const Content14 = styled.div`
+  flex: 1;
+  position: relative;
+  height: 560px;
+`;
+const Container7 = styled.div`
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0px 32px;
+  box-sizing: border-box;
+  gap: 64px;
+  max-width: 1280px;
+  font-size: 20px;
+  color: #f5f5f6;
+  font-family: Inter;
+`;
+const FeaturesSection1 = styled.div`
+  background-color: #0c111d;
+  width: 1440px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 96px 0px;
+  box-sizing: border-box;
+  gap: 64px;
+  text-align: left;
+  font-size: 12px;
+  color: #cecfd2;
   font-family: "Loos Wide";
 `;
-const Gridcontainer1 = styled.div`
+const Subheading1 = styled.div`
   align-self: stretch;
+  position: relative;
+  line-height: 24px;
+  font-weight: 600;
+`;
+const SupportingText12 = styled.div`
+  align-self: stretch;
+  position: relative;
+  font-size: 20px;
+  line-height: 30px;
+  color: #94969c;
+`;
+const Container8 = styled.div`
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px 32px;
+  box-sizing: border-box;
+  max-width: 1280px;
+  text-align: center;
+  font-size: 16px;
+  color: #cecfd2;
+  font-family: Inter;
+`;
+const FeaturedIcon9 = styled.img`
+  position: relative;
+  border-radius: 1000px;
+  width: 48px;
+  height: 48px;
+  object-fit: cover;
+`;
+const Heading5 = styled.div`
+  align-self: stretch;
+  position: relative;
+  line-height: 38px;
+  font-weight: 600;
+`;
+const SupportingText13 = styled.div`
+  align-self: stretch;
+  position: relative;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 500;
+  font-family: Inter;
+  color: #cecfd2;
+`;
+const HeadingAndSupportingText5 = styled.div`
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 16px;
+`;
+const CheckIcon = styled.img`
+  position: relative;
+  border-radius: 1000px;
+  width: 28px;
+  height: 28px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+`;
+const Text29 = styled.div`
+  align-self: stretch;
+  position: relative;
+  line-height: 28px;
+`;
+const TextWrap = styled.div`
   flex: 1;
-  border-radius: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+`;
+const CheckItemText = styled.div`
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 12px;
+`;
+const CheckItems = styled.div`
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px 0px 0px 16px;
+  gap: 20px;
+  font-size: 18px;
+  color: #94969c;
+  font-family: Inter;
+`;
+const Content16 = styled.div`
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 32px;
+`;
+const MockupShadow = styled.div`
+  position: absolute;
+  height: 100%;
+  width: calc(100% - 56px);
+  top: 0px;
+  right: 28px;
+  bottom: 0px;
+  left: 28px;
+  background-color: #000;
+  box-shadow: 0px 32px 64px -12px rgba(16, 24, 40, 0.14);
+`;
+const ScreenMockupReplaceFill1 = styled.img`
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  border-radius: 10px;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+`;
+const ScreenMockup = styled.div`
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-radius: 10px;
+  width: 768px;
+  height: 512px;
+`;
+const Content17 = styled.div`
+  flex: 1;
+  position: relative;
+  height: 512px;
+`;
+const Container9 = styled.div`
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0px 32px;
+  box-sizing: border-box;
+  gap: 96px;
+  max-width: 1280px;
+  color: #ededed;
+`;
+const ScreenMockup1 = styled.div`
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  border-radius: 10px;
+  width: 768px;
+  height: 512px;
+`;
+const Container10 = styled.div`
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0px 32px;
+  box-sizing: border-box;
+  gap: 96px;
+  max-width: 1280px;
+`;
+const MockupShadow2 = styled.div`
+  position: absolute;
+  height: 100%;
+  width: calc(100% - 56px);
+  top: 0px;
+  right: 28px;
+  bottom: 0px;
+  left: 28px;
+  background-color: #000;
+  box-shadow: 0px 32px 64px -12px rgba(16, 24, 40, 0.14);
+  display: none;
+`;
+const ScreenMockupReplaceFill3 = styled.div`
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  border-radius: 10px;
+  overflow: hidden;
+`;
+const Content21 = styled.div`
+  flex: 1;
+  position: relative;
+  height: 512px;
+  background-image: url("/content@3x.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+`;
+const FeaturesSection2 = styled.div`
+  background-color: #0c111d;
+  width: 1440px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 96px 0px;
+  box-sizing: border-box;
+  gap: 96px;
+  text-align: left;
+  font-size: 30px;
+`;
+const Buttonsbutton19 = styled.div`
+  border-radius: 8px;
+  background-color: #161b26;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  border: 1px solid #333741;
+  overflow: hidden;
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 18px;
+  gap: 6px;
+`;
+const Buttonsbutton20 = styled.div`
+  border-radius: 8px;
+  background-color: #7e56d9;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  border: 1px solid #7e56d9;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 18px;
+  gap: 6px;
+  color: #fff;
+`;
+const Actions1 = styled.div`
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 12px;
+  text-align: left;
+  font-size: 16px;
+  color: #cecfd2;
+  font-family: Inter;
+`;
+const Content22 = styled.div`
+  align-self: stretch;
+  border-radius: 16px;
+  background-color: #161b26;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 64px;
+  gap: 32px;
+`;
+const CtaSection = styled.div`
+  background-color: #0c111d;
+  width: 1440px;
   overflow: hidden;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 24px;
-  font-size: 16px;
-  font-family: Montserrat;
-  @media screen and (max-width: 420px) {
-    flex: unset;
-    align-self: stretch;
-  }
-`;
-const TemplateComponentsGridCon = styled.section`
-  align-self: stretch;
-  height: 848px;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: center;
-  padding: 48px 0px;
+  padding: 0px 0px 96px;
   box-sizing: border-box;
-  gap: 48px;
-  text-align: left;
-  font-size: 48px;
-  color: #ededed;
-  font-family: "Loos Wide";
-  @media screen and (max-width: 420px) {
-    flex-direction: column;
-  }
 `;
-const Heading5 = styled.b`
-  align-self: stretch;
+const SocialIcon5 = styled.img`
   position: relative;
-  line-height: 64px;
-  @media screen and (max-width: 1200px) {
-    font-size: 48px;
-    line-height: 56px;
-  }
+  width: 24px;
+  height: 24px;
+  object-fit: cover;
+  display: none;
 `;
-const Heading4 = styled.div`
-  align-self: stretch;
+const SocialIcons = styled.div`
+  width: 320px;
+  flex-shrink: 0;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
-`;
-const HorizontalContainer7 = styled.div`
-  align-self: stretch;
-  display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   justify-content: flex-start;
   gap: 24px;
 `;
-const Button2 = styled.div`
-  border-radius: 4px;
-  background-color: #232323;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
+const FooterText = styled.div`
+  position: relative;
   font-size: 16px;
-`;
-const HorizontalContainer6 = styled.div`
-  align-self: stretch;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 48px;
-`;
-const Containersection05 = styled.section`
-  align-self: stretch;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
-  padding: 80px;
-  text-align: center;
-  font-size: 56px;
-  color: #ac6aff;
-  font-family: "Loos Wide";
-`;
-const LogoSynthlete3 = styled.b`
-  position: relative;
-  text-transform: uppercase;
-  background: radial-gradient(50% 50% at 50% 50%, #6d3da9, #ac6aff);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-`;
-const Typeface1 = styled.div`
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: flex-start;
-`;
-const GetStarted = styled.div`
-  position: relative;
-  letter-spacing: 0.01em;
-  line-height: 20px;
-  font-weight: 500;
-  z-index: 0;
-`;
-const MenuChild = styled.div`
-  position: absolute;
-  margin: 0 !important;
-  bottom: 0px;
-  left: 0px;
-  background-color: #1c1c1c;
-  width: 1px;
-  height: 8px;
-  z-index: 1;
-`;
-const MenuInner = styled.div`
-  position: absolute;
-  margin: 0 !important;
-  right: 0px;
-  bottom: 0px;
-  background-color: #1c1c1c;
-  width: 1px;
-  height: 8px;
-  opacity: 0;
-  z-index: 2;
-`;
-const Menu = styled.div`
+  line-height: 24px;
+  font-family: Inter;
+  text-align: right;
+  display: inline-block;
+  width: 320px;
   flex-shrink: 0;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
-  padding: 32px 48px;
-  position: relative;
 `;
-const Menu1 = styled.div`
-  flex-shrink: 0;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
-  padding: 32px 48px;
-  position: relative;
-  margin-left: -1px;
-`;
-const MenuItem = styled.div`
-  flex-shrink: 0;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
-  font-size: 14px;
-  font-family: Montserrat;
-`;
-const EsportsOneInc = styled.div`
-  position: relative;
-  letter-spacing: 0.01em;
-  line-height: 20px;
-  font-weight: 500;
-`;
-const Socials = styled.div`
-  align-self: stretch;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: flex-end;
-  gap: 48px;
-`;
-const BottomBanner = styled.div`
+const Content23 = styled.div`
   align-self: stretch;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  text-align: left;
-  font-size: 14px;
-  font-family: Montserrat;
 `;
-const TemplateComponentsFooter = styled.footer`
-  align-self: stretch;
+const Footer = styled.div`
+  background-color: #0c111d;
+  width: 1440px;
+  overflow: hidden;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
   padding: 48px 0px;
-  gap: 48px;
-  text-align: center;
-  font-size: 40px;
-  color: #a0a0a0;
+  box-sizing: border-box;
+  font-size: 24.5px;
+  color: #94969c;
   font-family: Aquire;
-  @media screen and (max-width: 1200px) {
-    padding-left: 80px;
-    padding-right: 80px;
-    box-sizing: border-box;
-  }
-`;
-const Footer = styled.div`
-  align-self: stretch;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
-  padding: 0px 80px;
 `;
 const HomepageDesktopLargeRoot = styled.div`
   position: relative;
@@ -1326,10 +1340,10 @@ const HomepageDesktopLargeRoot = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  text-align: left;
-  font-size: 48px;
-  color: #ededed;
-  font-family: "Loos Wide";
+  text-align: center;
+  font-size: 36px;
+  color: #f5f5f6;
+  font-family: "Suisse Intl";
   @media screen and (max-width: 1200px) {
     gap: 40px;
     padding-left: 0px;
@@ -1345,528 +1359,618 @@ const HomepageDesktopLargeRoot = styled.div`
 
 const HomepageDesktopLarge: NextPage = () => {
   return (
-    <React.Fragment>
-      <GlobalStyle />
-      <HomepageDesktopLargeRoot>
-        <Containerheader>
-          <Container>
-            <Containerlogo>
-              <LogoSynthlete>
-                <LogoLacraLabsMark>
-                  <Logo>
-                    <VectorIcon alt="lacra labs" src="/logo_mark@1x.png" />
-                  </Logo>
-                </LogoLacraLabsMark>
-                <Typeface>
-                  <LogoSynthlete1>SYNTHLETE</LogoSynthlete1>
-                </Typeface>
-              </LogoSynthlete>
-            </Containerlogo>
-            <Button>
-              <StateLayer>
-                <Iconwrapper>
-                  <ChevronDownIcon alt="" src="/chevron-down@2x.png" />
-                </Iconwrapper>
-                <Textbutton>
-                  <Textbutton1>SIGN UP</Textbutton1>
-                </Textbutton>
-                <Iconwrapper1>
-                  <VectorIcon1 alt="" src="/vector@2x.png" />
-                </Iconwrapper1>
-              </StateLayer>
-            </Button>
-          </Container>
-        </Containerheader>
-        <Containerfeatured>
-          <HorizontalContainer>
-            <HorizontalContainer1>
-              <Texth1>
-                <UnleashThePower>{`Unleash the Power of  Human-Owned Virtual `}</UnleashThePower>
-                <AiAthletes>{`AI Athletes `}</AiAthletes>
-              </Texth1>
-              <Textarea>
-                <Textdiv>
-                  Lacra Labs stands at the forefront of the entertainment and
-                  competition sectors, pioneering the use of generative AI to
-                  create sophisticated, human-owned synthetic athletes. Our
-                  virtual AI agents are trained on a pre-existing dataset of
-                  esports and sports, and honed and nurtured by humans to create a
-                  symbiotic relationship unlike anything before. By shattering the
-                  limitations imposed by traditional sports and esports, we're
-                  reinventing a dynamic future that facilitates all new forms of
-                  entertainment.
-                </Textdiv>
-              </Textarea>
-            </HorizontalContainer1>
-            <Button1>
-              <StateLayer1>
-                <Iconwrapper>
-                  <ChevronDownIcon alt="" src="/chevron-down1@2x.png" />
-                </Iconwrapper>
-                <Textbutton>
-                  <Textbutton1>COMING SOON</Textbutton1>
-                </Textbutton>
-                <Iconwrapper>
-                  <VectorIcon1 alt="" src="/vector1@2x.png" />
-                </Iconwrapper>
-              </StateLayer1>
-            </Button1>
-          </HorizontalContainer>
-          <FeaturedImageContainer>
-            <ImageContainerIcon alt="" src="/female-gamer@1x.png" />
-            <InputText>
-              <TextBox>
-                <IconWrapper alt="" src="/icon-wrapper@2x.png" />
-                <SynthleteGenerating>
-                  Your Synthlete is generating...
-                </SynthleteGenerating>
-              </TextBox>
-            </InputText>
-          </FeaturedImageContainer>
-        </Containerfeatured>
-        <Containermetrics>
-          <Number05>
-            <B>3.1B+</B>
-            <DataPoints>Data Points</DataPoints>
-          </Number05>
-          <Number05>
-            <B>1,000</B>
-            <DataPoints>Virtual Arenas</DataPoints>
-          </Number05>
-          <Number05>
-            <B>4+</B>
-            <DataPoints>Game Types</DataPoints>
-          </Number05>
-          <Number05>
-            <B>100’s</B>
-            <DataPoints>Daily Contests</DataPoints>
-          </Number05>
-          <Number05>
-            <B>Infinite</B>
-            <DataPoints>Personas</DataPoints>
-          </Number05>
-        </Containermetrics>
-        <Containerfeatures>
-          <Heading>
-            <TheDigitalInfluencerContainer>
-              <TheDigitalInfluencer>{`The Digital Influencer `}</TheDigitalInfluencer>
-              <TheDigitalInfluencer>
-                You Never Knew You Needed
-              </TheDigitalInfluencer>
-            </TheDigitalInfluencerContainer>
-            <Textdiv1>
-              <LiveVicariouslyAnd>
-                Experience the thrill of owning a virtual AI athlete, with a
-                distinct personality and backstory, and competing in exclusive,
-                avant-garde sports and esports leagues. Our AI athletes redefine
-                the world of sports and esports, and hold the potential to
-                revolutionize domains like daily fantasy, sports betting, and
-                fandom. They offer an exhilarating alternative for younger
-                generations who may not be engaged by traditional sports, while
-                enabling others to relive the excitement of playing sports in
-                their youth.
-              </LiveVicariouslyAnd>
-            </Textdiv1>
-          </Heading>
-          <Containercards>
-            <TemplateComponentsCardGri>
-              <ValuePropCardParent>
-                <ValuePropCard>
-                  <TextBlock>
-                    <Headline>Virtual Athletes</Headline>
-                    <Description>
-                      Join the elite ranks of AI athletes and compete in thrilling
-                      global tournaments, where the victors earn millions in prize
-                      money. It's your chance to showcase your skills and dominate
-                      the virtual sports world.
-                    </Description>
-                  </TextBlock>
-                  <Bottomsection>
-                    <LearnMore>Learn more</LearnMore>
-                    <VectorIcon3 alt="" src="/vector2@2x.png" />
-                  </Bottomsection>
-                </ValuePropCard>
-                <ValuePropCard>
-                  <TextBlock>
-                    <Headline>Made For You</Headline>
-                    <Description>
-                      Create your very own AI athlete and watch as it evolves and
-                      learns, adapting to your unique training methods and
-                      strategies.
-                    </Description>
-                  </TextBlock>
-                  <Bottomsection1>
-                    <LearnMore>Learn more</LearnMore>
-                    <VectorIcon3 alt="" src="/vector2@2x.png" />
-                  </Bottomsection1>
-                </ValuePropCard>
-              </ValuePropCardParent>
-              <ValuePropCardParent>
-                <ValuePropCard>
-                  <TextBlock2>
-                    <Headline>AI Influencers</Headline>
-                    <Description>
-                      Extend your AI athlete's influence beyond the virtual world.
-                      Cultivate a unique public persona, engage with your fanbase,
-                      and establish a strong social media presence. Connect with
-                      fans from around the world and become a true digital sports
-                      icon.
-                    </Description>
-                  </TextBlock2>
-                  <Bottomsection2>
-                    <LearnMore>Learn more</LearnMore>
-                    <VectorIcon3 alt="" src="/vector2@2x.png" />
-                  </Bottomsection2>
-                </ValuePropCard>
-                <ValuePropCard>
-                  <TextBlock2>
-                    <Headline>Infinite Value</Headline>
-                    <Description>
-                      Our virtual world never stops evolving. With new sports and
-                      esports, large language models, advancements in AI, and
-                      more. And that’s why getting in early is key!
-                    </Description>
-                  </TextBlock2>
-                  <Bottomsection3>
-                    <LearnMore>Learn more</LearnMore>
-                    <VectorIcon3 alt="" src="/vector2@2x.png" />
-                  </Bottomsection3>
-                </ValuePropCard>
-              </ValuePropCardParent>
-            </TemplateComponentsCardGri>
-          </Containercards>
-        </Containerfeatures>
-        <Containersection01>
-          <TemplateComponentsFeatured>
-            <FeaturedImageIcon alt="" src="/retro-player-vr-headset@2x.png" />
-            <ColumnRight>
-              <Tagline>
-                <TaglineChild alt="" src="/vector-10@2x.png" />
-                <Content>HOW IT WORKS</Content>
-                <TaglineItem alt="" src="/vector-11@2x.png" />
-              </Tagline>
-              <TextBlock4>
-                <HorizontalContainer2>
-                  <TextContainer>
-                    <SportsBetting>
-                      Simulacrum Agents that learn, train and win 24/7!
-                    </SportsBetting>
-                    <Text1>
-                      <EnvisionAFuture>
-                        Envision a future where AI agents, owned by humans,
-                        inhabit virtual realms, honing their skills and competing
-                        as digital athletes. Watch as your AI athlete comes to
-                        life with its own distinct personality, shaped by its
-                        interactions with you and the world it inhabits. These
-                        virtual worlds act as hubs for sports and entertainment,
-                        fostering a constantly evolving ecosystem of training and
-                        competition.
-                      </EnvisionAFuture>
-                      <EnvisionAFuture>&nbsp;</EnvisionAFuture>
-                      <EnvisionAFuture>
-                        The elite AI athletes, trained on bespoke data models, vie
-                        for the championship title in global tournaments, with the
-                        victors earning millions in prize money, funded entirely
-                        by sponsors and fans.
-                      </EnvisionAFuture>
-                      <EnvisionAFuture>&nbsp;</EnvisionAFuture>
-                      <EnvisionAFuture>
-                        Where each AI has the potential to cultivate a unique
-                        public persona, interacting and engaging with their
-                        fanbase, establishing their own social media presence, and
-                        extending their influence on a global scale.
-                      </EnvisionAFuture>
-                    </Text1>
-                  </TextContainer>
-                </HorizontalContainer2>
-              </TextBlock4>
-            </ColumnRight>
-          </TemplateComponentsFeatured>
-          <TemplateComponentsTextGri>
-            <TextBlock5>
-              <Header>
-                <Number1>01.</Number1>
-                <AcquireSynthlete>Acquire</AcquireSynthlete>
-              </Header>
-              <Text11>
-                Create your own virtual AI athlete and personalize it to your
-                liking. Metapass members being prioritized.
-              </Text11>
-            </TextBlock5>
-            <TextBlock6>
-              <Header>
-                <Number1>02.</Number1>
-                <AcquireSynthlete>Train</AcquireSynthlete>
-              </Header>
-              <Text11>
-                From beginner to professional level models, our virtual Arenas
-                house the largest known collection of sports and esports datasets.
-                Your Synthlete will go from the playground to the big leagues in
-                no time!
-              </Text11>
-            </TextBlock6>
-            <TextBlock5>
-              <Header>
-                <Number1>03.</Number1>
-                <AcquireSynthlete>Compete</AcquireSynthlete>
-              </Header>
-              <Text11>
-                Enter into daily and weekly contests across popular sports and
-                esports for millions in prize money.
-              </Text11>
-            </TextBlock5>
-            <TextBlock5>
-              <Header>
-                <Number1>04.</Number1>
-                <AcquireSynthlete>Influence</AcquireSynthlete>
-              </Header>
-              <Text11>
-                Establish a unique public persona and brand for your AI Athlete,
-                enabling them to build and engage with their own global fanbase.
-              </Text11>
-            </TextBlock5>
-          </TemplateComponentsTextGri>
-        </Containersection01>
-        <Containersection02>
-          <TemplateComponentsFeatured1>
+    <HomepageDesktopLargeRoot>
+      <HeroHeaderSection>
+        <DropdownHeaderNavigation>
+          <Header>
+            <Container>
+              <Content>
+                <Logo>
+                  <LogoWrap>
+                    <Logomark>
+                      <LogoLacraLabsMark>
+                        <VectorIcon alt="lacra labs" src="/logo_mark@1x.png" />
+                      </LogoLacraLabsMark>
+                    </Logomark>
+                    <Logotype>
+                      <LogoSynthlete>SYNTHLETE</LogoSynthlete>
+                    </Logotype>
+                  </LogoWrap>
+                </Logo>
+                <Navigation1>
+                  <Buttonsbutton>
+                    <PlaceholderIcon alt="" src="/placeholder@2x.png" />
+                    <Text1>Home</Text1>
+                    <PlaceholderIcon alt="" src="/placeholder@2x.png" />
+                  </Buttonsbutton>
+                  <DropdownHeaderNavigationTri>
+                    <Buttonsbutton>
+                      <PlaceholderIcon alt="" src="/placeholder@2x.png" />
+                      <Text1>Products</Text1>
+                      <ChevronDownIcon alt="" src="/chevrondown@2x.png" />
+                    </Buttonsbutton>
+                  </DropdownHeaderNavigationTri>
+                  <DropdownHeaderNavigationTri>
+                    <Buttonsbutton>
+                      <PlaceholderIcon alt="" src="/placeholder@2x.png" />
+                      <Text1>Resources</Text1>
+                      <ChevronDownIcon alt="" src="/chevrondown@2x.png" />
+                    </Buttonsbutton>
+                  </DropdownHeaderNavigationTri>
+                  <Buttonsbutton>
+                    <PlaceholderIcon alt="" src="/placeholder@2x.png" />
+                    <Text1>Pricing</Text1>
+                    <PlaceholderIcon alt="" src="/placeholder@2x.png" />
+                  </Buttonsbutton>
+                </Navigation1>
+              </Content>
+              <NavigationActions>
+                <Buttonsbutton4>
+                  <PlaceholderIcon alt="" src="/placeholder@2x.png" />
+                  <TextPadding>
+                    <Text1>Log in</Text1>
+                  </TextPadding>
+                  <PlaceholderIcon alt="" src="/placeholder@2x.png" />
+                </Buttonsbutton4>
+                <Buttonsbutton5>
+                  <PlaceholderIcon alt="" src="/placeholder@2x.png" />
+                  <TextPadding>
+                    <Text1>COMING SOON</Text1>
+                  </TextPadding>
+                  <PlaceholderIcon alt="" src="/placeholder@2x.png" />
+                </Buttonsbutton5>
+              </NavigationActions>
+            </Container>
+          </Header>
+        </DropdownHeaderNavigation>
+        <HeaderSection>
+          <Section>
             <Container1>
-              <TextContainer>
-                <SportsBetting>{`Sports Betting & Wagering`}</SportsBetting>
-                <OnixDeliversTamperProof>
-                  Onix delivers tamper-proof inputs, outputs, and computations to
-                  support advanced smart contracts on any blockchain.
-                </OnixDeliversTamperProof>
-              </TextContainer>
-              <ListContainer>
-                <Listitem>
-                  <Bulleticon alt="" src="/bulleticon@2x.png" />
-                  <SymbioticRelationships>
-                    Symbiotic Relationships
-                  </SymbioticRelationships>
-                </Listitem>
-                <Listitem>
-                  <Bulleticon alt="" src="/bulleticon@2x.png" />
-                  <SymbioticRelationships>
-                    Virtual Companions
-                  </SymbioticRelationships>
-                </Listitem>
-                <Listitem>
-                  <Bulleticon alt="" src="/bulleticon@2x.png" />
-                  <SymbioticRelationships>Goal Oriented</SymbioticRelationships>
-                </Listitem>
-              </ListContainer>
+              <Content1>
+                <HeadingAndSupportingText>
+                  <HeadingAndBadge>
+                    <BadgeGroup>
+                      <Badge>
+                        <Message>New feature</Message>
+                      </Badge>
+                      <Content2>
+                        <Message>Your Synthlete is generating...</Message>
+                        <ArrowRightIcon alt="" src="/arrowright@2x.png" />
+                      </Content2>
+                    </BadgeGroup>
+                    <Heading>
+                      <UnleashThePower>{`Unleash the Power of Human-Owned Virtual `}</UnleashThePower>
+                      <AiAthletes>AI Athletes</AiAthletes>
+                    </Heading>
+                  </HeadingAndBadge>
+                  <SupportingText>
+                    Lacra Labs stands at the forefront of the entertainment and
+                    competition sectors, pioneering the use of generative AI to
+                    create sophisticated, human-owned synthetic athletes. Our
+                    virtual AI agents are trained on a pre-existing dataset of
+                    esports and sports, and honed and nurtured by humans to
+                    create a symbiotic relationship unlike anything before. By
+                    shattering the limitations imposed by traditional sports and
+                    esports, we're reinventing a dynamic future that facilitates
+                    all new forms of entertainment.
+                  </SupportingText>
+                </HeadingAndSupportingText>
+                <Actions>
+                  <Buttonsbutton6>
+                    <PlayCircleIcon alt="" src="/playcircle@2x.png" />
+                    <TextPadding>
+                      <Text7>Demo</Text7>
+                    </TextPadding>
+                    <PlaceholderIcon10 alt="" src="/placeholder@2x.png" />
+                  </Buttonsbutton6>
+                  <Buttonsbutton7>
+                    <PlaceholderIcon10 alt="" src="/placeholder@2x.png" />
+                    <TextPadding>
+                      <Text7>COMING SOON</Text7>
+                    </TextPadding>
+                    <PlaceholderIcon10 alt="" src="/placeholder@2x.png" />
+                  </Buttonsbutton7>
+                </Actions>
+              </Content1>
             </Container1>
-            <Image1>
-              <Pill>
-                <TextBlock10>
-                  <IconWrapper1 alt="" src="/icon-wrapper@2x.png" />
-                  <SynthleteGenerating1>
-                    Synthlete training in progress...
-                  </SynthleteGenerating1>
-                </TextBlock10>
-              </Pill>
-            </Image1>
-          </TemplateComponentsFeatured1>
-        </Containersection02>
-        <Containersection03>
-          <TemplateComponentsFeatured2>
-            <FeaturedImageIcon alt="" src="/retro-player-vr-headset11@2x.png" />
-            <ColumnRight>
-              <Tagline>
-                <TaglineChild alt="" src="/vector-10@2x.png" />
-                <Content>METAVERSE</Content>
-                <TaglineItem alt="" src="/vector-11@2x.png" />
-              </Tagline>
-              <TextBlock4>
-                <HorizontalContainer2>
-                  <TextContainer>
-                    <SportsBetting>{`Digital Stadium & Arenas`}</SportsBetting>
-                    <Text1>
-                      Lacra Labs also offers the opportunity to own a Metarena,
-                      your very own space where you get to call the shots. These
-                      Metarenas are tailored to the sport or event you're
-                      interested in hosting, and you can acquire certain models
-                      based on your preferences. Your arena, your rules. Whether
-                      you're stepping into the shoes of a synthetic athlete
-                      manager, a fan, a hardcore bettor, or even a Metarena boss,
-                      Lacra Labs is your ticket to a fascinating fusion of AI,
-                      sports, and entertainment, wrapped up in an explosive
-                      package. This ride is just getting started, so buckle up and
-                      get ready for a wild ride!
-                    </Text1>
-                  </TextContainer>
-                </HorizontalContainer2>
-              </TextBlock4>
-            </ColumnRight>
-          </TemplateComponentsFeatured2>
-        </Containersection03>
-        <Containersection02>
-          <TemplateComponentsGridCon>
-            <Gridcontainer>
-              <TextBlock12>
-                <TextContainer>
-                  <SportsBetting>Robust Data Models</SportsBetting>
-                  <OnixDeliversTamperProof>
-                    100M+ data points, built on decades of real-life sports and
-                    esports.
-                  </OnixDeliversTamperProof>
-                </TextContainer>
-                <Icons>
-                  <Icon01>
-                    <MonitorRecorderIcon alt="" src="/monitor-recorder@2x.png" />
-                  </Icon01>
-                  <Icon01>
-                    <MonitorRecorderIcon alt="" src="/record-circle@2x.png" />
-                  </Icon01>
-                  <Icon03 height={60} width={60} alt="" src="/icon-03@1x.png" />
-                  <Icon01>
-                    <MonitorRecorderIcon alt="" src="/data@2x.png" />
-                  </Icon01>
-                  <Icon01>
-                    <MonitorRecorderIcon alt="" src="/code@2x.png" />
-                  </Icon01>
-                </Icons>
-              </TextBlock12>
-              <ImagecontainerIcon alt="" src="/imagecontainer@2x.png" />
-            </Gridcontainer>
-            <Gridcontainer1>
-              <Popup>
-                <Separator />
-                <Teamcontainer>
-                  <Header4>
-                    <MyTeam>My Team</MyTeam>
-                    <SearchBar>
-                      <Iconwrapper1>
-                        <SearchIcon alt="" src="/search@2x.png" />
-                      </Iconwrapper1>
-                      <SearchAgents>Search Agents</SearchAgents>
-                    </SearchBar>
-                  </Header4>
-                  <Player01>
-                    <Contentcontainer>
-                      <RobotAvatars3Icon alt="" src="/robot-avatars-3@2x.png" />
-                      <Synthlete001>Synthlete_001</Synthlete001>
-                    </Contentcontainer>
-                    <Iconwrapper1>
-                      <SearchIcon alt="" src="/chevron-right@2x.png" />
-                    </Iconwrapper1>
-                  </Player01>
-                  <Player01>
-                    <Contentcontainer>
-                      <RobotAvatars3Icon alt="" src="/robot-avatars-18@2x.png" />
-                      <Synthlete001>Synthlete_002</Synthlete001>
-                    </Contentcontainer>
-                    <SearchIcon alt="" src="/chevron-right@2x.png" />
-                  </Player01>
-                  <Player01>
-                    <Contentcontainer>
-                      <RobotAvatars3Icon alt="" src="/robot-avatars-39@2x.png" />
-                      <Synthlete001>Synthlete_003</Synthlete001>
-                    </Contentcontainer>
-                    <SearchIcon alt="" src="/chevron-right@2x.png" />
-                  </Player01>
-                  <Player01>
-                    <Contentcontainer>
-                      <RobotAvatars3Icon alt="" src="/robot-avatars-10@2x.png" />
-                      <Synthlete001>Synthlete_004</Synthlete001>
-                    </Contentcontainer>
-                    <SearchIcon alt="" src="/chevron-right@2x.png" />
-                  </Player01>
-                </Teamcontainer>
-              </Popup>
-              <TextBlock13>
-                <SportsBetting>Manage a Team of AI Athletes</SportsBetting>
-                <HostAWide>
+            <BackgroundPatternIcon alt="" src="/background-pattern@2x.png" />
+          </Section>
+          <Section1>
+            <Container2>
+              <Content3>
+                <VideoPlayer>
+                  <ShadowOverlayPlayer />
+                  <Overlay />
+                  <VideoProgress>
+                    <Content4>
+                      <Background />
+                      <Buffering>
+                        <BufferingProgress />
+                      </Buffering>
+                      <ProgressLine />
+                      <PlayIcon alt="" src="/play@2x.png" />
+                    </Content4>
+                    <Timestamps>
+                      <TimestampStart>0:00</TimestampStart>
+                      <TimestampStart>8:24</TimestampStart>
+                    </Timestamps>
+                  </VideoProgress>
+                  <TextAndBadge>
+                    <Badge1>
+                      <Message>Part 1</Message>
+                    </Badge1>
+                    <Text10>The future of work</Text10>
+                  </TextAndBadge>
+                  <PlayButtonIcon alt="" src="/-play-button@2x.png" />
+                </VideoPlayer>
+              </Content3>
+            </Container2>
+          </Section1>
+        </HeaderSection>
+      </HeroHeaderSection>
+      <MetricsSection>
+        <Container2>
+          <Content3>
+            <HeadingAndSupportingText1>
+              <Heading1>Decades of training data</Heading1>
+              <SupportingText1>
+                Every historical statistics going back decades.
+              </SupportingText1>
+            </HeadingAndSupportingText1>
+          </Content3>
+        </Container2>
+        <Container4>
+          <Content6>
+            <MetricItem>
+              <NumberAndText>
+                <Number1>3.1B+</Number1>
+                <Text11>Tokens</Text11>
+              </NumberAndText>
+              <Buttonsbutton8>
+                <PlaceholderIcon alt="" src="/placeholder@2x.png" />
+                <Text1>Learn more</Text1>
+                <ChevronDownIcon alt="" src="/arrowright@2x.png" />
+              </Buttonsbutton8>
+            </MetricItem>
+            <MetricItem>
+              <NumberAndText>
+                <Number1>1,000</Number1>
+                <Text11>Virtual Arenas</Text11>
+              </NumberAndText>
+              <Buttonsbutton8>
+                <PlaceholderIcon alt="" src="/placeholder@2x.png" />
+                <Text1>Learn more</Text1>
+                <ChevronDownIcon alt="" src="/arrowright@2x.png" />
+              </Buttonsbutton8>
+            </MetricItem>
+            <MetricItem>
+              <NumberAndText>
+                <Number1>Infinite</Number1>
+                <Text11>Personas</Text11>
+              </NumberAndText>
+              <Buttonsbutton8>
+                <PlaceholderIcon alt="" src="/placeholder@2x.png" />
+                <Text1>Learn more</Text1>
+                <ChevronDownIcon alt="" src="/arrowright@2x.png" />
+              </Buttonsbutton8>
+            </MetricItem>
+          </Content6>
+        </Container4>
+      </MetricsSection>
+      <FeaturesSection>
+        <Container5>
+          <HeadingAndSupportingText2>
+            <HeadingAndIcon>
+              <FeaturedIcon alt="" src="/featured-icon@2x.png" />
+              <Heading1>
+                The Digital Influencer You Never Knew You Needed
+              </Heading1>
+            </HeadingAndIcon>
+            <SupportingText2>
+              Experience the thrill of owning a virtual AI athlete, with a
+              distinct personality and backstory, and competing in exclusive,
+              avant-garde sports and esports leagues. Our AI athletes redefine
+              the world of sports and esports, and hold the potential to
+              revolutionize domains like daily fantasy, sports betting, and
+              fandom. They offer an exhilarating alternative for younger
+              generations who may not be engaged by traditional sports, while
+              enabling others to relive the excitement of playing sports in
+              their youth.
+            </SupportingText2>
+          </HeadingAndSupportingText2>
+          <Content7>
+            <FeatureText>
+              <FeaturedIcon1 alt="" src="/featured-icon@2x.png" />
+              <HeadingAndIcon>
+                <TextAndSupportingText>
+                  <Text17>Virtual Athletes</Text17>
+                  <SupportingText3>
+                    Join the elite ranks of AI athletes and compete in thrilling
+                    global tournaments, where the victors earn millions in prize
+                    money. It's your chance to showcase your skills and dominate
+                    the virtual sports world.
+                  </SupportingText3>
+                </TextAndSupportingText>
+                <Buttonsbutton11 />
+              </HeadingAndIcon>
+            </FeatureText>
+            <FeatureText>
+              <FeaturedIcon1 alt="" src="/featured-icon@2x.png" />
+              <HeadingAndIcon>
+                <TextAndSupportingText>
+                  <Text17>Made For You</Text17>
+                  <SupportingText3>
+                    Create your very own AI athlete and watch as it evolves and
+                    learns, adapting to your unique training methods and
+                    strategies.
+                  </SupportingText3>
+                </TextAndSupportingText>
+                <Buttonsbutton11 />
+              </HeadingAndIcon>
+            </FeatureText>
+            <FeatureText>
+              <FeaturedIcon1 alt="" src="/featured-icon@2x.png" />
+              <HeadingAndIcon>
+                <TextAndSupportingText>
+                  <Text17>AI Influencers</Text17>
+                  <SupportingText3>
+                    Extend your AI athlete's influence beyond the virtual world.
+                    Cultivate a unique public persona, engage with your fanbase,
+                    and establish a strong social media presence. Connect with
+                    fans from around the world and become a true digital sports
+                    icon.
+                  </SupportingText3>
+                </TextAndSupportingText>
+                <Buttonsbutton13>
+                  <PlaceholderIcon alt="" src="/placeholder@2x.png" />
+                  <Text1>View integration</Text1>
+                  <ChevronDownIcon alt="" src="/arrowright@2x.png" />
+                </Buttonsbutton13>
+              </HeadingAndIcon>
+            </FeatureText>
+            <FeatureText>
+              <FeaturedIcon1 alt="" src="/featured-icon@2x.png" />
+              <HeadingAndIcon>
+                <TextAndSupportingText>
+                  <Text17>Infinite Value</Text17>
+                  <SupportingText3>
+                    Our virtual world never stops evolving. With new sports and
+                    esports, large language models, advancements in AI, and
+                    more. And that’s why getting in early is key!
+                  </SupportingText3>
+                </TextAndSupportingText>
+                <Buttonsbutton13>
+                  <PlaceholderIcon alt="" src="/placeholder@2x.png" />
+                  <Text1>View integration</Text1>
+                  <ChevronDownIcon alt="" src="/arrowright@2x.png" />
+                </Buttonsbutton13>
+              </HeadingAndIcon>
+            </FeatureText>
+          </Content7>
+        </Container5>
+      </FeaturesSection>
+      <FeaturesSection1>
+        <Container2>
+          <Content12>
+            <HeadingAndSupportingText3>
+              <NumberAndText>
+                <Subheading>HOW IT WORKS</Subheading>
+                <Heading3>
+                  Simulacrum Agents that learn, train and win 24/7!
+                </Heading3>
+              </NumberAndText>
+              <SupportingText7>
+                <EnvisionAFuture>
+                  Envision a future where AI agents, owned by humans, inhabit
+                  virtual realms, honing their skills and competing as digital
+                  athletes. Watch as your AI athlete comes to life with its own
+                  distinct personality, shaped by its interactions with you and
+                  the world it inhabits. These virtual worlds act as hubs for
+                  sports and entertainment, fostering a constantly evolving
+                  ecosystem of training and competition.
+                </EnvisionAFuture>
+                <EnvisionAFuture>
+                  The elite AI athletes, trained on bespoke data models, vie for
+                  the championship title in global tournaments, with the victors
+                  earning millions in prize money, funded entirely by sponsors
+                  and fans.
+                </EnvisionAFuture>
+                <WhereEachAi>
+                  Where each AI has the potential to cultivate a unique public
+                  persona, interacting and engaging with their fanbase,
+                  establishing their own social media presence, and extending
+                  their influence on a global scale.
+                </WhereEachAi>
+              </SupportingText7>
+            </HeadingAndSupportingText3>
+          </Content12>
+        </Container2>
+        <Container7>
+          <Content13>
+            <FeatureText4>
+              <FeaturedIcon1 alt="" src="/featured-icon@2x.png" />
+              <TextAndSupportingText>
+                <Text17>Acquire</Text17>
+                <SupportingText8>
+                  Create your own virtual AI athlete and personalize it to your
+                  liking. Metapass members being prioritized.
+                </SupportingText8>
+              </TextAndSupportingText>
+              <Buttonsbutton11 />
+            </FeatureText4>
+            <FeatureText4>
+              <FeaturedIcon1 alt="" src="/featured-icon@2x.png" />
+              <TextAndSupportingText>
+                <Text17>Train</Text17>
+                <SupportingText8>
+                  From beginner to professional level models, our virtual Arenas
+                  house the largest known collection of sports and esports
+                  datasets. Your Synthlete will go from the playground to the
+                  big leagues in no time!
+                </SupportingText8>
+              </TextAndSupportingText>
+              <Buttonsbutton13>
+                <PlaceholderIcon alt="" src="/placeholder@2x.png" />
+                <Text1>Learn more</Text1>
+                <ChevronDownIcon alt="" src="/arrowright@2x.png" />
+              </Buttonsbutton13>
+            </FeatureText4>
+            <FeatureText4>
+              <FeaturedIcon1 alt="" src="/featured-icon@2x.png" />
+              <TextAndSupportingText>
+                <Text17>Compete</Text17>
+                <SupportingText8>
+                  Enter into daily and weekly contests across popular sports and
+                  esports for millions in prize money.
+                </SupportingText8>
+              </TextAndSupportingText>
+              <Buttonsbutton13>
+                <PlaceholderIcon alt="" src="/placeholder@2x.png" />
+                <Text1>Learn more</Text1>
+                <ChevronDownIcon alt="" src="/arrowright@2x.png" />
+              </Buttonsbutton13>
+            </FeatureText4>
+            <FeatureText4>
+              <FeaturedIcon1 alt="" src="/featured-icon@2x.png" />
+              <TextAndSupportingText>
+                <Text17>Influence</Text17>
+                <SupportingText8>
+                  Establish a unique public persona and brand for your AI
+                  Athlete, enabling them to build and engage with their own
+                  global fanbase.
+                </SupportingText8>
+              </TextAndSupportingText>
+              <Buttonsbutton11 />
+            </FeatureText4>
+          </Content13>
+          <Content14>
+            <MockupWrap>
+              <MacbookProMockup>
+                <ShadowIcon alt="" src="/shadow@2x.png" />
+                <MacbookPro16 alt="" src="/macbook-pro-16@2x.png" />
+                <CameraIcon alt="" src="/camera@2x.png" />
+                <LogoIcon alt="" src="/logo@2x.png" />
+                <ScreenMockupReplaceFill
+                  alt=""
+                  src="/screen-mockup-replace-fill@2x.png"
+                />
+              </MacbookProMockup>
+            </MockupWrap>
+            <HandDrawnArrowIcon alt="" src="/handdrawn-arrow@2x.png" />
+          </Content14>
+        </Container7>
+      </FeaturesSection1>
+      <FeaturesSection2>
+        <Container8>
+          <Content3>
+            <HeadingAndSupportingText1>
+              <NumberAndText>
+                <Subheading1>NEXT GENERATION AI AGENTS</Subheading1>
+                <Heading3>
+                  AI Sports that feels like it’s from the future
+                </Heading3>
+              </NumberAndText>
+              <SupportingText12>
+                AI Agents that are trained specifically for sports and esports
+              </SupportingText12>
+            </HeadingAndSupportingText1>
+          </Content3>
+        </Container8>
+        <Container9>
+          <Content16>
+            <HeadingAndIcon>
+              <FeaturedIcon9 alt="" src="/featured-icon@2x.png" />
+              <HeadingAndSupportingText5>
+                <Heading5>{`Digital Stadium & Arenas`}</Heading5>
+                <SupportingText13>
+                  Virtual venues where AI Athletes compete
+                </SupportingText13>
+              </HeadingAndSupportingText5>
+            </HeadingAndIcon>
+            <CheckItems>
+              <CheckItemText>
+                <CheckIcon alt="" src="/check-icon@2x.png" />
+                <TextWrap>
+                  <Text29>
+                    Tailored to the sport or esports you’re interested in
+                  </Text29>
+                </TextWrap>
+              </CheckItemText>
+              <CheckItemText>
+                <CheckIcon alt="" src="/check-icon@2x.png" />
+                <TextWrap>
+                  <Text29>Your arena, your rules</Text29>
+                </TextWrap>
+              </CheckItemText>
+              <CheckItemText>
+                <CheckIcon alt="" src="/check-icon@2x.png" />
+                <TextWrap>
+                  <Text29>Customizable from the inside, out.</Text29>
+                </TextWrap>
+              </CheckItemText>
+            </CheckItems>
+          </Content16>
+          <Content17>
+            <ScreenMockup>
+              <MockupShadow />
+              <ScreenMockupReplaceFill1
+                alt=""
+                src="/screen-mockup-replace-fill@2x.png"
+              />
+            </ScreenMockup>
+          </Content17>
+        </Container9>
+        <Container10>
+          <Content17>
+            <ScreenMockup1>
+              <MockupShadow />
+              <ScreenMockupReplaceFill1
+                alt=""
+                src="/screen-mockup-replace-fill@2x.png"
+              />
+            </ScreenMockup1>
+          </Content17>
+          <Content16>
+            <HeadingAndIcon>
+              <FeaturedIcon9 alt="" src="/featured-icon@2x.png" />
+              <HeadingAndSupportingText5>
+                <Heading5>Robust Data Models</Heading5>
+                <SupportingText13>
+                  100M+ data points, built on decades of real-life sports and
+                  esports.
+                </SupportingText13>
+              </HeadingAndSupportingText5>
+            </HeadingAndIcon>
+            <CheckItems>
+              <CheckItemText>
+                <CheckIcon alt="" src="/check-icon@2x.png" />
+                <TextWrap>
+                  <Text29>
+                    Keep your customers in the loop with live chat
+                  </Text29>
+                </TextWrap>
+              </CheckItemText>
+              <CheckItemText>
+                <CheckIcon alt="" src="/check-icon@2x.png" />
+                <TextWrap>
+                  <Text29>Embed help articles right on your website</Text29>
+                </TextWrap>
+              </CheckItemText>
+              <CheckItemText>
+                <CheckIcon alt="" src="/check-icon@2x.png" />
+                <TextWrap>
+                  <Text29>
+                    Customers never have to leave the page to find an answer
+                  </Text29>
+                </TextWrap>
+              </CheckItemText>
+            </CheckItems>
+          </Content16>
+        </Container10>
+        <Container10>
+          <Content16>
+            <HeadingAndIcon>
+              <FeaturedIcon9 alt="" src="/featured-icon@2x.png" />
+              <HeadingAndSupportingText5>
+                <Heading5>Manage a Team of AI Athletes</Heading5>
+                <SupportingText13>
                   Host a wide range of contest types, training classes, events,
                   and more!
-                </HostAWide>
-              </TextBlock13>
-            </Gridcontainer1>
-          </TemplateComponentsGridCon>
-        </Containersection02>
-        <Containersection05>
-          <HorizontalContainer6>
-            <HorizontalContainer7>
-              <Heading4>
-                <Heading5>Don’t Miss Your Chance</Heading5>
-              </Heading4>
-              <OnixDeliversTamperProof>
-                <TheDigitalInfluencer>
-                  Claim your spot in the future of athleticism, entertainment and
-                  technology.
-                </TheDigitalInfluencer>
-                <TheDigitalInfluencer>
-                  Join the waiting list today!
-                </TheDigitalInfluencer>
-              </OnixDeliversTamperProof>
-            </HorizontalContainer7>
-            <Button2>
-              <StateLayer1>
-                <Iconwrapper>
-                  <ChevronDownIcon alt="" src="/chevron-down2@2x.png" />
-                </Iconwrapper>
-                <Textbutton>
-                  <Textbutton1>COMING SOON</Textbutton1>
-                </Textbutton>
-                <Iconwrapper>
-                  <VectorIcon1 alt="" src="/vector3@2x.png" />
-                </Iconwrapper>
-              </StateLayer1>
-            </Button2>
-          </HorizontalContainer6>
-        </Containersection05>
-        <Footer>
-          <TemplateComponentsFooter>
-            <Icons>
-              <Containerlogo>
-                <LogoSynthlete>
+                </SupportingText13>
+              </HeadingAndSupportingText5>
+            </HeadingAndIcon>
+            <CheckItems>
+              <CheckItemText>
+                <CheckIcon alt="" src="/check-icon@2x.png" />
+                <TextWrap>
+                  <Text29>
+                    Filter, export, and drilldown on the data quickly
+                  </Text29>
+                </TextWrap>
+              </CheckItemText>
+              <CheckItemText>
+                <CheckIcon alt="" src="/check-icon@2x.png" />
+                <TextWrap>
+                  <Text29>
+                    Save, schedule, and automate reports to your inbox
+                  </Text29>
+                </TextWrap>
+              </CheckItemText>
+              <CheckItemText>
+                <CheckIcon alt="" src="/check-icon@2x.png" />
+                <TextWrap>
+                  <Text29>
+                    Connect the tools you already use with 100+ integrations
+                  </Text29>
+                </TextWrap>
+              </CheckItemText>
+            </CheckItems>
+          </Content16>
+          <Content21>
+            <ScreenMockup>
+              <MockupShadow2 />
+              <ScreenMockupReplaceFill3 />
+            </ScreenMockup>
+          </Content21>
+        </Container10>
+      </FeaturesSection2>
+      <CtaSection>
+        <Container2>
+          <Content22>
+            <HeadingAndSupportingText1>
+              <Heading1>Don’t Miss Your Chance</Heading1>
+              <SupportingText13>
+                Claim your spot in the future of athleticism, entertainment and
+                technology.
+              </SupportingText13>
+            </HeadingAndSupportingText1>
+            <Actions1>
+              <Buttonsbutton19>
+                <PlaceholderIcon alt="" src="/placeholder@2x.png" />
+                <TextPadding>
+                  <Text1>LEARN MORE</Text1>
+                </TextPadding>
+                <PlaceholderIcon alt="" src="/placeholder@2x.png" />
+              </Buttonsbutton19>
+              <Buttonsbutton20>
+                <PlaceholderIcon alt="" src="/placeholder@2x.png" />
+                <TextPadding>
+                  <Text1>COMING SOON</Text1>
+                </TextPadding>
+                <PlaceholderIcon alt="" src="/placeholder@2x.png" />
+              </Buttonsbutton20>
+            </Actions1>
+          </Content22>
+        </Container2>
+      </CtaSection>
+      <Footer>
+        <Container2>
+          <Content23>
+            <SocialIcons>
+              <PlayCircleIcon alt="" src="/social-icon@2x.png" />
+              <PlayCircleIcon alt="" src="/social-icon@2x.png" />
+              <PlayCircleIcon alt="" src="/social-icon@2x.png" />
+              <PlayCircleIcon alt="" src="/social-icon@2x.png" />
+              <PlaceholderIcon10 alt="" src="/social-icon@2x.png" />
+              <SocialIcon5 alt="" src="/social-icon@2x.png" />
+            </SocialIcons>
+            <Logo>
+              <LogoWrap>
+                <Logomark>
                   <LogoLacraLabsMark>
-                    <Logo>
-                      <VectorIcon alt="" src="/vector4@2x.png" />
-                    </Logo>
+                    <VectorIcon alt="lacra labs" src="/logo_mark1@1x.png" />
                   </LogoLacraLabsMark>
-                  <Typeface1>
-                    <LogoSynthlete3>SYNTHLETE</LogoSynthlete3>
-                  </Typeface1>
-                </LogoSynthlete>
-              </Containerlogo>
-              <MenuItem>
-                <Menu>
-                  <GetStarted>ARENAVERSE</GetStarted>
-                  <MenuChild />
-                  <MenuInner />
-                </Menu>
-                <Menu1>
-                  <GetStarted>SYNTHLETES</GetStarted>
-                  <MenuChild />
-                  <MenuInner />
-                </Menu1>
-                <Menu1>
-                  <GetStarted>DOCS</GetStarted>
-                  <MenuChild />
-                  <MenuInner />
-                </Menu1>
-                <Menu1>
-                  <GetStarted>ROADMAP</GetStarted>
-                  <MenuChild />
-                  <MenuInner />
-                </Menu1>
-              </MenuItem>
-            </Icons>
-            <BottomBanner>
-              <EsportsOneInc>© 2023 ESPORTS ONE INC</EsportsOneInc>
-              <Socials>
-                <MonitorRecorderIcon alt="" src="/icondiscord@2x.png" />
-                <SearchIcon alt="" src="/icontwitter@2x.png" />
-                <SearchIcon alt="" src="/iconinstagram@2x.png" />
-                <SearchIcon alt="" src="/facebook@2x.png" />
-                <SearchIcon alt="" src="/telegram@2x.png" />
-              </Socials>
-            </BottomBanner>
-          </TemplateComponentsFooter>
-        </Footer>
-      </HomepageDesktopLargeRoot>
-    </React.Fragment>
+                </Logomark>
+                <Logotype>
+                  <LogoSynthlete>SYNTHLETE</LogoSynthlete>
+                </Logotype>
+              </LogoWrap>
+            </Logo>
+            <FooterText>© 2024 ESPORTS ONE INC.</FooterText>
+          </Content23>
+        </Container2>
+      </Footer>
+    </HomepageDesktopLargeRoot>
   );
 };
 
