@@ -1381,11 +1381,11 @@ const HomepageDesktopLarge: NextPage = () => {
                   <Buttonsbutton>
                     <PlaceholderIcon alt="" src="/placeholder@2x.png" />
                     <Text1>Home</Text1>
-                    <PlaceholderIcon alt="" src="/placeholder@2x.png" />
+                    <PlaceholderIcon alt="" src="/placeholder@2x@2x.svg" />
                   </Buttonsbutton>
                   <DropdownHeaderNavigationTri>
                     <Buttonsbutton>
-                      <PlaceholderIcon alt="" src="/placeholder@2x.png" />
+                      <PlaceholderIcon alt="" src="/placeholder1.svg" />
                       <Text1>Products</Text1>
                       <ChevronDownIcon alt="" src="/chevrondown@2x.png" />
                     </Buttonsbutton>
@@ -1398,26 +1398,26 @@ const HomepageDesktopLarge: NextPage = () => {
                     </Buttonsbutton>
                   </DropdownHeaderNavigationTri>
                   <Buttonsbutton>
-                    <PlaceholderIcon alt="" src="/placeholder@2x.png" />
+                    <PlaceholderIcon alt="" src="/placeholder1.svg" />
                     <Text1>Pricing</Text1>
-                    <PlaceholderIcon alt="" src="/placeholder@2x.png" />
+                    <PlaceholderIcon alt="" src="/placeholder@2x@2x.svg" />
                   </Buttonsbutton>
                 </Navigation1>
               </Content>
               <NavigationActions>
                 <Buttonsbutton4>
-                  <PlaceholderIcon alt="" src="/placeholder@2x.png" />
+                  <PlaceholderIcon alt="" src="/placeholder2.svg" />
                   <TextPadding>
                     <Text1>Log in</Text1>
                   </TextPadding>
-                  <PlaceholderIcon alt="" src="/placeholder@2x.png" />
+                  <PlaceholderIcon alt="" src="/placeholder1@2x@2x.svg" />
                 </Buttonsbutton4>
                 <Buttonsbutton5>
-                  <PlaceholderIcon alt="" src="/placeholder@2x.png" />
+                  <PlaceholderIcon alt="" src="/placeholder3.svg" />
                   <TextPadding>
                     <Text1>COMING SOON</Text1>
                   </TextPadding>
-                  <PlaceholderIcon alt="" src="/placeholder@2x.png" />
+                  <PlaceholderIcon alt="" src="/placeholder2@2x@2x.svg" />
                 </Buttonsbutton5>
               </NavigationActions>
             </Container>
@@ -1457,18 +1457,18 @@ const HomepageDesktopLarge: NextPage = () => {
                 </HeadingAndSupportingText>
                 <Actions>
                   <Buttonsbutton6>
-                    <PlayCircleIcon alt="" src="/playcircle@2x.png" />
+                    <PlayCircleIcon alt="" src="/playcircle@2x@2x.svg" />
                     <TextPadding>
                       <Text7>Demo</Text7>
                     </TextPadding>
-                    <PlaceholderIcon10 alt="" src="/placeholder@2x.png" />
+                    <PlaceholderIcon10 alt="" src="/placeholder3@2x@2x.svg" />
                   </Buttonsbutton6>
                   <Buttonsbutton7>
-                    <PlaceholderIcon10 alt="" src="/placeholder@2x.png" />
+                    <PlaceholderIcon10 alt="" src="/placeholder4@2x@2x.svg" />
                     <TextPadding>
                       <Text7>COMING SOON</Text7>
                     </TextPadding>
-                    <PlaceholderIcon10 alt="" src="/placeholder@2x.png" />
+                    <PlaceholderIcon10 alt="" src="/placeholder4@2x@2x.svg" />
                   </Buttonsbutton7>
                 </Actions>
               </Content1>
@@ -1488,8 +1488,8 @@ const HomepageDesktopLarge: NextPage = () => {
                         <BufferingProgress />
                       </Buffering>
                       <ProgressLine />
-                      <PlayIcon alt="" src="/play@2x.png" />
-                    </Content4>
+                      <PlayIcon alt="" src="/play@2x@2x.svg" />
+                    </Content5>
                     <Timestamps>
                       <TimestampStart>0:00</TimestampStart>
                       <TimestampStart>8:24</TimestampStart>
@@ -1527,7 +1527,7 @@ const HomepageDesktopLarge: NextPage = () => {
                 <Text11>Tokens</Text11>
               </NumberAndText>
               <Buttonsbutton8>
-                <PlaceholderIcon alt="" src="/placeholder@2x.png" />
+                <PlaceholderIcon alt="" src="/placeholder4.svg" />
                 <Text1>Learn more</Text1>
                 <ChevronDownIcon alt="" src="/arrowright@2x.png" />
               </Buttonsbutton8>
@@ -1538,9 +1538,9 @@ const HomepageDesktopLarge: NextPage = () => {
                 <Text11>Virtual Arenas</Text11>
               </NumberAndText>
               <Buttonsbutton8>
-                <PlaceholderIcon alt="" src="/placeholder@2x.png" />
+                <PlaceholderIcon alt="" src="/placeholder2.svg" />
                 <Text1>Learn more</Text1>
-                <ChevronDownIcon alt="" src="/arrowright@2x.png" />
+                <ChevronDownIcon alt="" src="/arrowright@2x@2x.svg" />
               </Buttonsbutton8>
             </MetricItem>
             <MetricItem>
@@ -1549,9 +1549,9 @@ const HomepageDesktopLarge: NextPage = () => {
                 <Text11>Personas</Text11>
               </NumberAndText>
               <Buttonsbutton8>
-                <PlaceholderIcon alt="" src="/placeholder@2x.png" />
+                <PlaceholderIcon alt="" src="/placeholder5.svg" />
                 <Text1>Learn more</Text1>
-                <ChevronDownIcon alt="" src="/arrowright@2x.png" />
+                <ChevronDownIcon alt="" src="/arrowright1.svg" />
               </Buttonsbutton8>
             </MetricItem>
           </Content6>
@@ -1591,7 +1591,11 @@ const HomepageDesktopLarge: NextPage = () => {
                     the virtual sports world.
                   </SupportingText3>
                 </TextAndSupportingText>
-                <Buttonsbutton11 />
+                <Buttonsbutton11>
+                  <PlaceholderIcon alt="" src="/placeholder2.svg" />
+                  <Text1>View integration</Text1>
+                  <ChevronDownIcon alt="" src="/arrowright@2x@2x.svg" />
+                </Buttonsbutton11>
               </HeadingAndIcon>
             </FeatureText>
             <FeatureText>
@@ -1605,7 +1609,11 @@ const HomepageDesktopLarge: NextPage = () => {
                     strategies.
                   </SupportingText3>
                 </TextAndSupportingText>
-                <Buttonsbutton11 />
+                <Buttonsbutton11>
+                  <PlaceholderIcon alt="" src="/placeholder2.svg" />
+                  <Text1>View integration</Text1>
+                  <ChevronDownIcon alt="" src="/arrowright@2x@2x.svg" />
+                </Buttonsbutton11>
               </HeadingAndIcon>
             </FeatureText>
             <FeatureText>
@@ -1621,11 +1629,11 @@ const HomepageDesktopLarge: NextPage = () => {
                     icon.
                   </SupportingText3>
                 </TextAndSupportingText>
-                <Buttonsbutton13>
-                  <PlaceholderIcon alt="" src="/placeholder@2x.png" />
+                <Buttonsbutton11>
+                  <PlaceholderIcon alt="" src="/placeholder2.svg" />
                   <Text1>View integration</Text1>
-                  <ChevronDownIcon alt="" src="/arrowright@2x.png" />
-                </Buttonsbutton13>
+                  <ChevronDownIcon alt="" src="/arrowright@2x@2x.svg" />
+                </Buttonsbutton11>
               </HeadingAndIcon>
             </FeatureText>
             <FeatureText>
@@ -1639,16 +1647,21 @@ const HomepageDesktopLarge: NextPage = () => {
                     more. And that’s why getting in early is key!
                   </SupportingText3>
                 </TextAndSupportingText>
-                <Buttonsbutton13>
-                  <PlaceholderIcon alt="" src="/placeholder@2x.png" />
+                <Buttonsbutton11>
+                  <PlaceholderIcon alt="" src="/placeholder2.svg" />
                   <Text1>View integration</Text1>
-                  <ChevronDownIcon alt="" src="/arrowright@2x.png" />
-                </Buttonsbutton13>
+                  <ChevronDownIcon alt="" src="/arrowright@2x@2x.svg" />
+                </Buttonsbutton11>
               </HeadingAndIcon>
             </FeatureText>
           </Content7>
         </Container5>
       </FeaturesSection>
+      <SectionDivider>
+        <Container3>
+          <DividerIcon1 alt="" src="/divider2.svg" />
+        </Container3>
+      </SectionDivider>
       <FeaturesSection1>
         <Container2>
           <Content12>
@@ -1688,7 +1701,7 @@ const HomepageDesktopLarge: NextPage = () => {
         <Container7>
           <Content13>
             <FeatureText4>
-              <FeaturedIcon1 alt="" src="/featured-icon@2x.png" />
+              <FeaturedIcon1 alt="" src="/icon-message-chat-circle11@1x.png" />
               <TextAndSupportingText>
                 <Text17>Acquire</Text17>
                 <SupportingText8>
@@ -1696,10 +1709,14 @@ const HomepageDesktopLarge: NextPage = () => {
                   liking. Metapass members being prioritized.
                 </SupportingText8>
               </TextAndSupportingText>
-              <Buttonsbutton11 />
+              <Buttonsbutton11>
+                <PlaceholderIcon alt="" src="/placeholder6.svg" />
+                <Text1>Learn more</Text1>
+                <ChevronDownIcon alt="" src="/arrowright@2x@2x.svg" />
+              </Buttonsbutton11>
             </FeatureText4>
             <FeatureText4>
-              <FeaturedIcon1 alt="" src="/featured-icon@2x.png" />
+              <FeaturedIcon1 alt="" src="/icon-zap11@1x.png" />
               <TextAndSupportingText>
                 <Text17>Train</Text17>
                 <SupportingText8>
@@ -1709,14 +1726,17 @@ const HomepageDesktopLarge: NextPage = () => {
                   big leagues in no time!
                 </SupportingText8>
               </TextAndSupportingText>
-              <Buttonsbutton13>
-                <PlaceholderIcon alt="" src="/placeholder@2x.png" />
+              <Buttonsbutton11>
+                <PlaceholderIcon alt="" src="/placeholder6.svg" />
                 <Text1>Learn more</Text1>
-                <ChevronDownIcon alt="" src="/arrowright@2x.png" />
-              </Buttonsbutton13>
+                <ChevronDownIcon alt="" src="/arrowright@2x@2x.svg" />
+              </Buttonsbutton11>
             </FeatureText4>
             <FeatureText4>
-              <FeaturedIcon1 alt="" src="/featured-icon@2x.png" />
+              <FeaturedIcon1
+                alt=""
+                src="/icon-chart-breakout-square11@1x.png"
+              />
               <TextAndSupportingText>
                 <Text17>Compete</Text17>
                 <SupportingText8>
@@ -1724,14 +1744,14 @@ const HomepageDesktopLarge: NextPage = () => {
                   esports for millions in prize money.
                 </SupportingText8>
               </TextAndSupportingText>
-              <Buttonsbutton13>
-                <PlaceholderIcon alt="" src="/placeholder@2x.png" />
+              <Buttonsbutton11>
+                <PlaceholderIcon alt="" src="/placeholder7.svg" />
                 <Text1>Learn more</Text1>
-                <ChevronDownIcon alt="" src="/arrowright@2x.png" />
-              </Buttonsbutton13>
+                <ChevronDownIcon alt="" src="/arrowright@2x@2x.svg" />
+              </Buttonsbutton11>
             </FeatureText4>
             <FeatureText4>
-              <FeaturedIcon1 alt="" src="/featured-icon@2x.png" />
+              <FeaturedIcon1 alt="" src="/icon-message-smile-circle11@1x.png" />
               <TextAndSupportingText>
                 <Text17>Influence</Text17>
                 <SupportingText8>
@@ -1740,7 +1760,11 @@ const HomepageDesktopLarge: NextPage = () => {
                   global fanbase.
                 </SupportingText8>
               </TextAndSupportingText>
-              <Buttonsbutton11 />
+              <Buttonsbutton11>
+                <PlaceholderIcon alt="" src="/placeholder7.svg" />
+                <Text1>Learn more</Text1>
+                <ChevronDownIcon alt="" src="/arrowright@2x@2x.svg" />
+              </Buttonsbutton11>
             </FeatureText4>
           </Content13>
           <Content14>
@@ -1760,6 +1784,11 @@ const HomepageDesktopLarge: NextPage = () => {
           </Content14>
         </Container7>
       </FeaturesSection1>
+      <SectionDivider>
+        <Container3>
+          <DividerIcon1 alt="" src="/divider2.svg" />
+        </Container3>
+      </SectionDivider>
       <FeaturesSection2>
         <Container8>
           <Content3>
@@ -1779,7 +1808,7 @@ const HomepageDesktopLarge: NextPage = () => {
         <Container9>
           <Content16>
             <HeadingAndIcon>
-              <FeaturedIcon9 alt="" src="/featured-icon@2x.png" />
+              <FeaturedIcon9 alt="" src="/icon-message-chat-circle21@1x.png" />
               <HeadingAndSupportingText5>
                 <Heading5>{`Digital Stadium & Arenas`}</Heading5>
                 <SupportingText13>
@@ -1832,7 +1861,7 @@ const HomepageDesktopLarge: NextPage = () => {
           </Content17>
           <Content16>
             <HeadingAndIcon>
-              <FeaturedIcon9 alt="" src="/featured-icon@2x.png" />
+              <FeaturedIcon9 alt="zap-fast" src="/icon-zap-fast11@1x.png" />
               <HeadingAndSupportingText5>
                 <Heading5>Robust Data Models</Heading5>
                 <SupportingText13>
@@ -1909,11 +1938,16 @@ const HomepageDesktopLarge: NextPage = () => {
           <Content21>
             <ScreenMockup>
               <MockupShadow2 />
-              <ScreenMockupReplaceFill3 />
+              <ScreenMockupIcon alt="" src="/screen-mockup1@2x.png" />
             </ScreenMockup>
           </Content21>
         </Container10>
       </FeaturesSection2>
+      <SectionDivider>
+        <Container3>
+          <DividerIcon1 alt="" src="/divider2.svg" />
+        </Container3>
+      </SectionDivider>
       <CtaSection>
         <Container2>
           <Content22>
@@ -1926,18 +1960,18 @@ const HomepageDesktopLarge: NextPage = () => {
             </HeadingAndSupportingText1>
             <Actions1>
               <Buttonsbutton19>
-                <PlaceholderIcon alt="" src="/placeholder@2x.png" />
+                <PlaceholderIcon alt="" src="/placeholder8.svg" />
                 <TextPadding>
                   <Text1>LEARN MORE</Text1>
                 </TextPadding>
-                <PlaceholderIcon alt="" src="/placeholder@2x.png" />
+                <PlaceholderIcon alt="" src="/placeholder8.svg" />
               </Buttonsbutton19>
               <Buttonsbutton20>
-                <PlaceholderIcon alt="" src="/placeholder@2x.png" />
+                <PlaceholderIcon alt="" src="/placeholder9.svg" />
                 <TextPadding>
                   <Text1>COMING SOON</Text1>
                 </TextPadding>
-                <PlaceholderIcon alt="" src="/placeholder@2x.png" />
+                <PlaceholderIcon alt="" src="/placeholder9.svg" />
               </Buttonsbutton20>
             </Actions1>
           </Content22>
@@ -1947,12 +1981,28 @@ const HomepageDesktopLarge: NextPage = () => {
         <Container2>
           <Content23>
             <SocialIcons>
-              <PlayCircleIcon alt="" src="/social-icon@2x.png" />
-              <PlayCircleIcon alt="" src="/social-icon@2x.png" />
-              <PlayCircleIcon alt="" src="/social-icon@2x.png" />
-              <PlayCircleIcon alt="" src="/social-icon@2x.png" />
-              <PlaceholderIcon10 alt="" src="/social-icon@2x.png" />
-              <SocialIcon5 alt="" src="/social-icon@2x.png" />
+              <SocialIcon
+                alt="twitter"
+                src="/icon_twitter@1x.png"
+                onClick={onSocialIconClick}
+              />
+              <SocialIcon
+                alt="linkedin"
+                src="/icon_linkedin@1x.png"
+                onClick={onSocialIcon1Click}
+              />
+              <SocialIcon
+                alt="facebook"
+                src="/icon_facebook@1x.png"
+                onClick={onSocialIcon2Click}
+              />
+              <SocialIcon
+                alt="github"
+                src="/icon_github@1x.png"
+                onClick={onSocialIcon3Click}
+              />
+              <PlaceholderIcon10 alt="" src="/social-icon@2x@2x.svg" />
+              <SocialIcon5 alt="" src="/social-icon1@2x@2x.svg" />
             </SocialIcons>
             <Logo>
               <LogoWrap>
@@ -1961,9 +2011,7 @@ const HomepageDesktopLarge: NextPage = () => {
                     <VectorIcon alt="lacra labs" src="/logo_mark1@1x.png" />
                   </LogoLacraLabsMark>
                 </Logomark>
-                <Logotype>
-                  <LogoSynthlete>SYNTHLETE</LogoSynthlete>
-                </Logotype>
+                <LogotypeIcon alt="" src="/logotype1.svg" />
               </LogoWrap>
             </Logo>
             <FooterText>© 2024 ESPORTS ONE INC.</FooterText>
